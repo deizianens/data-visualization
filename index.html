@@ -1,14 +1,98 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="css/style.css">
-    <title>Learn D3.js</title>
-</head>
-<body>
-    <script src="https://d3js.org/d3.v4.min.js"></script>
-    <script src="js/script.js"></script>
-</body>
+<html>
+  <head>
+    <title>Brazil</title>    
+    <meta charset="utf-8"/>
+    <script src="https://d3js.org/d3.v3.min.js"></script>
+    <script src="https://d3js.org/d3-queue.v2.min.js"></script>
+    <script src="https://d3js.org/topojson.v1.min.js"></script>
+        
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+  </head>
+  <body>
+    
+    <h1>Visualização de Dados</h1>
+    <h2>Trabalho Prático I - 2018/2</h2>
+    <h4>Eleições 2014</h4>
+
+    <div id="candidatosPorEstado">
+        <div class='vertical-menu-wrapper'>
+            <ul class="vertical-menu ul--reset">
+            <li class="vertical-menu-item is-active">
+                <a class="link--inverse-menu" data-vertical="1" href="" onclick="setCandidate(8)">DILMA ROUSSEF</a>
+            </li>
+            <li class="vertical-menu-item">
+                <a class="link--inverse-menu" data-vertical="2" href="" onclick="setCandidate(9)">AÉCIO NEVES</a>
+            </li>
+            <li class="vertical-menu-item">
+                <a class="link--inverse-menu" data-vertical="3" href="" onclick="setCandidate(10)">MARINA SILVA</a>
+            </li>
+            <li class="vertical-menu-item">
+                <a class="link--inverse-menu" data-vertical="4" href=""  onclick="setCandidate(3)">LUCIANA GENRO</a>
+            </li>
+            <li class="vertical-menu-item">
+                <a class="link--inverse-menu" data-vertical="5" href=""  onclick="setCandidate(4)">EDUARDO JORGE</a>
+            </li>
+            <li class="vertical-menu-item">
+                <a class="link--inverse-menu" data-vertical="6" href=""  onclick="setCandidate(1)">LEVY FIDELIX</a>
+            </li>
+             <li class="vertical-menu-item">
+                <a class="link--inverse-menu" data-vertical="7" href="" onclick="setCandidate(5)">PASTOR EVERALDO</a>
+            </li>
+            <li class="vertical-menu-item">
+                <a class="link--inverse-menu" data-vertical="8" href="" onclick="setCandidate(6)">EYMAEL</a>
+            </li>
+            <li class="vertical-menu-item">
+                    <a class="link--inverse-menu" data-vertical="9" href="" onclick="setCandidate(2)">MAURO IASI</a>
+            </li>
+            <li class="vertical-menu-item">
+                <a class="link--inverse-menu" data-vertical="10" href="" onclick="setCandidate(0)">ZÉ MARIA</a>
+            </li>
+             <li class="vertical-menu-item">
+                <a class="link--inverse-menu" data-vertical="11" href="" onclick="setCandidate(7)">RUI COSTA PIMENTA</a>
+            </li>
+            </ul>
+            <i class='active-marker'> 
+        </div>
+        <div id="squareOne"></div>
+        <div class="right-menu">
+            <div class="switch-button">
+                <span class="active"></span>
+                <button class="switch-button-case left active-case" onclick="setType(0)">Absoluto</button>
+                <button class="switch-button-case right" onclick="setType(1)">Percentual</button>
+            </div>
+        </div>
+        <ul class="legend">
+                <li>
+                    <em>+3kk&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;80% - 100%</em>
+                </li>
+                <li>
+                    <em>1kk - 3kk&emsp;&emsp;&emsp;&emsp;&emsp;65% - 80%</em>
+                </li>
+                <li>
+                  <em>700k - 1kk&emsp;&emsp;&emsp;&emsp;50% - 65%</em>
+                </li>
+                <li>
+                  <em>500k - 700k&emsp;&emsp;&emsp;&emsp;35% - 50%</em>
+                </li>
+                <li>
+                  <em>250k - 500k&emsp;&emsp;&emsp;12,5% - 25%</em>
+                </li>
+                <li>
+                  <em>50k - 250k&emsp;&emsp;&emsp;&emsp;2% - 12,5%</em>
+                </li>
+                <li>
+                  <em>0 - 50k&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;0 - 2%</em>
+                </li>
+              </ul>
+    </div>
+
+    <footer>Deiziane Natani da Silva</footer>
+
+    
+    <script type="text/javascript" src="js/brazilmap.js"></script>
+    <script type="text/javascript" src="js/database.js"></script>
+     <script type="text/javascript" src="js/script.js"></script>
+  </body>
 </html>

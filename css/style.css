@@ -1,0 +1,420 @@
+body {
+    font-family: "Exo 2", sans-serif;
+    background-color: #F0F0F0;
+    color: #333;
+    overflow-x: hidden;
+  }
+
+h1 {
+    font-family: "Tahoma";
+    font-size: 24pt;
+    font-weight: 400;
+    color: #696969;
+    text-align: center;
+    margin: 2px;
+  
+}
+
+h2{
+      font-family: "Tahoma";
+    font-size: 20pt;
+    font-weight: 400;
+    color: #808080;
+    text-align: center;
+    margin: 0px;
+}
+  
+h3{
+    font-family: "Tahoma";
+    font-size: 14pt;
+    font-weight: 200;
+    color: #808080;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+ 
+h4 {
+    font-family: "Tahoma";
+    font-size: 10pt;
+    font-weight: 200;
+    color: #999999;
+    text-align: center;
+    margin: 0px;
+}
+
+#candidatosPorEstado{
+    width: 100%;
+    height: 100vh;
+}
+
+footer {
+    font-size: 13pt;
+    font-weight: 200;
+    color: #999999;
+    text-align: left;
+    margin: 0px;
+}
+
+/*  Animated Menu Active Item Indicator 
+    Credits: https://codepen.io/sheelah/pen/wxRebm
+*/
+.ul--reset {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.vertical-menu {
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+  width: 220px;
+}
+
+.vertical-menu-wrapper {
+  max-width: 230px;
+  margin: 50px;
+  display: flex;
+  position: relative;
+  top: 150px;
+}
+
+.active-marker {
+  transition: transform 0.4s;
+  width: 5px;
+  background-image: linear-gradient(90deg, #ff5e5e, #f54985);
+  background-size: 100%;
+  height: 30px;
+  margin-left: 7px;
+  transform: translateY(0px);
+}
+
+.vertical-menu-item {
+  font-size: 1.1em;
+  color: #000000;
+  transition: all 0.4s;
+  height: 41px;
+  text-align: right;
+}
+.vertical-menu-item.is-active {
+  font-size: 1.4em;
+}
+
+.link--inverse-menu {
+  color:#000000;
+  text-decoration: none;
+}
+.link--inverse-menu:visited {
+  color:#000000;
+}
+.link--inverse-menu:hover, .link--inverse-menu:active {
+  color: #d3d3d3;
+}
+
+/* end  Animated Menu Active Item Indicator  */
+
+.right-menu{
+    position: relative;
+    z-index: 8;
+    left: 35%;
+    top: 0;
+}
+
+.switch-button {
+    width: 400px;
+    height: 40px;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate3D(-50%, -50%, 0);
+            transform: translate3D(-50%, -50%, 0);
+    will-change: transform;
+    z-index: 197 !important;
+    cursor: pointer;
+    transition: .3s ease all;
+    border: 1px solid white;
+   
+}
+
+.switch-button-case {
+    display: inline-block;
+    background: none;
+    width: 49%;
+    height: 100%;
+    color: rgb(95, 94, 94);
+    position: relative;
+    border: none;
+    transition: .3s ease all;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    padding-bottom: 1px;
+    
+}
+
+.switch-button-case:hover {
+    color: grey;
+    cursor: pointer;
+}
+
+.switch-button-case:focus {
+    outline: none;
+}
+
+.switch-button .active {
+    color: #151515;
+    background-color: white;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 50%;
+    height: 100%;
+    z-index: -1;
+    transition: .3s ease-out all;
+}
+
+.switch-button .active-case {
+    color: #151515;
+}
+
+rect.contour {
+    stroke: #E6E6E6;
+    stroke-width:2px;   
+}
+  
+#names{
+      position:absolute;
+      float: middle;
+      top:1110px;
+}
+  
+.state_contour {
+    fill: none;
+    stroke:none;
+    stroke-linejoin: round;
+    fill-opacity: 0.2;
+}
+
+.state_contour_on {
+    fill: none;
+    stroke:black;
+    stroke-width:2px;
+    stroke-linejoin: round;
+    fill-opacity: 0.2;
+}
+
+.mapColor3kk{
+    fill: #930000;
+}
+.mapColor1kk{
+    fill: #b30000;
+}
+.mapColor850k{
+    fill: #d7301f;
+}
+.mapColor700k{
+    fill: #ef6548;
+}
+.mapColor500k{
+    fill: #fc8d59;
+}
+.mapColor250k{
+    fill: #fdbb84;
+}
+.mapColor50k{
+    fill: #fdd49e;
+}
+.mapColor0k{
+    fill: #FCF3E9;
+}
+
+.mapColor100{
+    fill: #084081;
+}
+.mapColor80{
+    fill: #0868ac;
+}
+.mapColor65{
+    fill: #2b8cbe;
+}
+.mapColor50{
+    fill: #4eb3d3;
+}
+.mapColor35{
+    fill: #7bccc4;
+}
+.mapColor25{
+    fill: #a8ddb5;
+}
+.mapColor12{
+    fill: #ccebc5;
+}
+.mapColor0{
+    fill: #e0f3db;
+}
+
+.legend {
+    position: relative;
+    width: 260px;
+    left: 23%;
+    top:-140px;
+    list-style-type: none;
+    background: #FFF;
+    padding: 15px;
+    font-size: 13px;
+    box-shadow: 2px 2px 0 #DDD, 2px 2px 0 #BBB;
+  }
+  
+  .legend li {
+    width: 220px;
+    height: 1.25em;
+    margin-bottom: 1.5em;
+    padding-left: 0.5em;
+    
+  }
+  
+  .legend li:first-child {
+    border-left: 1.25em solid #930000;
+    border-right: 1.25em solid #084081;
+  }
+
+  .legend li:nth-child(2) {
+    border-left: 1.25em solid #b30000;
+    border-right: 1.25em solid #2b8cbe;
+  }
+
+  .legend li:nth-child(3) {
+    border-left: 1.25em solid #ef6548;
+    border-right: 1.25em solid #4eb3d3;
+  }
+  .legend li:nth-child(4) {
+    border-left: 1.25em solid #fc8d59;
+    border-right: 1.25em solid #7bccc4;
+  }
+  .legend li:nth-child(5) {
+    border-left: 1.25em solid #fdbb84;
+    border-right: 1.25em solid #a8ddb5;
+  }
+  .legend li:nth-child(6) {
+    border-left: 1.25em solid #fdd49e;
+    border-right: 1.25em solid #ccebc5;
+  }
+  .legend li:nth-child(7) {
+    border-left: 1.25em solid #FCF3E9;
+    border-right: 1.25em solid #e0f3db;
+  }
+
+  .legend em {
+    font-style: normal;
+    font-size: 14px;
+  }
+  
+  .legend span {
+    float: right;
+  }
+  
+.hidden { 
+    display: none; 
+}
+  
+
+div.tooltip {
+    position: absolute;    
+    text-align: center;    
+    width: 130px;          
+    height: 45px;        
+    padding: 2px;      
+    font: 10px Tahoma;    
+    background: rgba(0, 0, 0, 0.8);
+    border: 0px;    
+    border-radius: 2px;    
+    pointer-events: none;    
+    color: #FFFFFF;
+}
+  
+#about{
+    position: absolute;
+    left: 1150px;
+    top: 20px;
+}
+  
+#squareOne {    
+    position: absolute;
+    top:0px;
+    left:45%;
+    transform: translate(-35%);
+    z-index: 7;
+}
+  
+
+  .chart div {
+    font: 10px sans-serif;
+    text-align: right;
+    padding: 3px;
+    margin: 1px; 
+    color: white;
+  }
+  
+  .widget {
+    display: inline-block;
+    border: 1px solid #AAA;
+    background: white;
+  }
+  
+  #chart {
+    height: 400px;
+    width: 500px;
+  }
+  
+  svg {
+    shape-rendering: crispEdges;
+  }
+  
+  .bar {
+    fill: steelblue;
+  }
+  
+  .value {
+    font-size: 9px;
+    font-weight: 300;
+    fill: #696969;
+  }
+  
+  .label {
+    font-size: 9px;
+    fill: #696969;
+  }
+  
+
+.axis path {
+      fill: none;
+}
+
+.axis  .tick line {
+    stroke-width: 1;
+    stroke: red;
+}
+ 
+.axis{   
+    font-size: 8px;
+    fill: #696969;
+  }
+  
+  .slice {
+    font-size: 12pt;
+    font-family: Tahoma;
+    fill: #696969; 	
+  } 
+  
+  .title {
+      font-family: Tahoma;
+    font-size: 10px;	
+    font-weight: bold;  
+    fill: #696969; 	
+  }
+  
+  .legend {
+      font-size: 7pt;
+    font-family: Tahoma;
+    fill: #696969; 
+  }
