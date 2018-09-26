@@ -148,124 +148,152 @@ function ready(error, shp, data) {
         .on("mouseover", function(d,i) {
 			var mouse = d3.mouse(svg.node()).map( function(d) { return parseInt(d); } );
 			var state;
-            var votes;
+            var votes = [];
             switch(d.id){
                 case 'AC':
                     state = "Acre";
-                    votes = formatValue(parseInt(data[idCandidate].value[0]['num_votes']));
+                    votes[0] = formatValue(parseInt(data[idCandidate].value[0]['num_votes']));
+                    votes[1] = formatValue2((parseInt(data[idCandidate].value[0]['num_votes'])/totalPerState[0])*100);
                     break;
                 case 'AL':
                     state = "Alagoas";
-                    votes = formatValue(parseInt(data[idCandidate].value[1]['num_votes']));
+                    votes[0] = formatValue(parseInt(data[idCandidate].value[1]['num_votes']));
+                    votes[1] = formatValue2((parseInt(data[idCandidate].value[1]['num_votes'])/totalPerState[1])*100);
                     break;
                 case 'AM':
                     state = "Amazonas";
-                    votes = formatValue(parseInt(data[idCandidate].value[2]['num_votes']));
+                    votes[0] = formatValue(parseInt(data[idCandidate].value[2]['num_votes']));
+                    votes[1] = formatValue2((parseInt(data[idCandidate].value[2]['num_votes'])/totalPerState[2])*100);
                     break;
                 case 'AP':
                     state = "Amapá";
-                    votes = formatValue(parseInt(data[idCandidate].value[3]['num_votes']));
+                    votes[0] = formatValue(parseInt(data[idCandidate].value[3]['num_votes']));
+                    votes[1] = formatValue2((parseInt(data[idCandidate].value[3]['num_votes'])/totalPerState[3])*100);
                     break;
                  case 'BA':
                     state = "Bahia";
-                    votes = formatValue(parseInt(data[idCandidate].value[4]['num_votes']));
+                    votes[0] = formatValue(parseInt(data[idCandidate].value[4]['num_votes']));
+                    votes[1] = formatValue2((parseInt(data[idCandidate].value[4]['num_votes'])/totalPerState[4])*100);
                     break;
                 case 'CE':
                     state = "Ceará";
-                    votes = formatValue(parseInt(data[idCandidate].value[5]['num_votes']));
+                    votes[0] = formatValue(parseInt(data[idCandidate].value[5]['num_votes']));
+                    votes[1] = formatValue2((parseInt(data[idCandidate].value[5]['num_votes'])/totalPerState[5])*100);
                     break;
                 case 'DF':
                     state = "Distrito Federal";
-                     votes = formatValue(parseInt(data[idCandidate].value[6]['num_votes']));
+                     votes[0] = formatValue(parseInt(data[idCandidate].value[6]['num_votes']));
+                     votes[1] = formatValue2((parseInt(data[idCandidate].value[6]['num_votes'])/totalPerState[6])*100);
                     break;
                 case 'ES':
                     state = "Espírito Santo";
-                     votes = formatValue(parseInt(data[idCandidate].value[7]['num_votes']));
-                    break;
+                     votes[0] = formatValue(parseInt(data[idCandidate].value[7]['num_votes']));
+                     votes[1] = formatValue2((parseInt(data[idCandidate].value[7]['num_votes'])/totalPerState[7])*100);
+                     break;
                 case 'GO':
                     state = "Goiás";
-                     votes = formatValue(parseInt(data[idCandidate].value[8]['num_votes']));                    
+                     votes[0] = formatValue(parseInt(data[idCandidate].value[8]['num_votes']));                    
+                     votes[1] = formatValue2((parseInt(data[idCandidate].value[8]['num_votes'])/totalPerState[8])*100);
                     break;
                 case 'MA':
                     state = "Maranhão";
-                    votes = formatValue(parseInt(data[idCandidate].value[9]['num_votes']));
+                    votes[0] = formatValue(parseInt(data[idCandidate].value[9]['num_votes']));
+                    votes[1] = formatValue2((parseInt(data[idCandidate].value[9]['num_votes'])/totalPerState[9])*100);
                     break;
                 case 'MG':
                     state = "Minas Gerais";
-                    votes = formatValue(parseInt(data[idCandidate].value[10]['num_votes']));
+                    votes[0] = formatValue(parseInt(data[idCandidate].value[10]['num_votes']));
+                    votes[1] = formatValue2((parseInt(data[idCandidate].value[10]['num_votes'])/totalPerState[10])*100);
                     break;
                 case 'MS':
                     state = "Mato Grosso do Sul";
-                     votes = formatValue(parseInt(data[idCandidate].value[11]['num_votes']));
-                    break;
+                     votes[0] = formatValue(parseInt(data[idCandidate].value[11]['num_votes']));
+                     votes[1] = formatValue2((parseInt(data[idCandidate].value[11]['num_votes'])/totalPerState[11])*100);
+                     break;
                 case 'MT':
                     state = "Mato Grosso";
-                     votes = formatValue(parseInt(data[idCandidate].value[12]['num_votes']));
-                    break;
+                     votes[0] = formatValue(parseInt(data[idCandidate].value[12]['num_votes']));
+                     votes[1] = formatValue2((parseInt(data[idCandidate].value[12]['num_votes'])/totalPerState[12])*100);
+                     break;
                 case 'PA':
                     state = "Pará";
-                    votes = formatValue(parseInt(data[idCandidate].value[13]['num_votes']));
+                    votes[0] = formatValue(parseInt(data[idCandidate].value[13]['num_votes']));
+                    votes[1] = formatValue2((parseInt(data[idCandidate].value[13]['num_votes'])/totalPerState[13])*100);
                     break;
                 case 'PB':
                     state = "Paraíba";
-                     votes = formatValue(parseInt(data[idCandidate].value[14]['num_votes']));
-                    break;
+                     votes[0] = formatValue(parseInt(data[idCandidate].value[14]['num_votes']));
+                     votes[1] = formatValue2((parseInt(data[idCandidate].value[14]['num_votes'])/totalPerState[14])*100);
+                     break;
                 case 'PE':
                     state = "Pernambuco";
-                     votes = formatValue(parseInt(data[idCandidate].value[15]['num_votes']));
-                    break;
+                     votes[0] = formatValue(parseInt(data[idCandidate].value[15]['num_votes']));
+                     votes[1] = formatValue2((parseInt(data[idCandidate].value[15]['num_votes'])/totalPerState[15])*100);
+                     break;
                 case 'PI':
                     state = "Piauí";
-                     votes = formatValue(parseInt(data[idCandidate].value[16]['num_votes']));
-                    break;
+                     votes[0] = formatValue(parseInt(data[idCandidate].value[16]['num_votes']));
+                     votes[1] = formatValue2((parseInt(data[idCandidate].value[16]['num_votes'])/totalPerState[16])*100);
+                     break;
                 case 'PR':
                     state = "Paraná";
-                    votes = formatValue(parseInt(data[idCandidate].value[17]['num_votes']));
+                    votes[0] = formatValue(parseInt(data[idCandidate].value[17]['num_votes']));
+                    votes[1] = formatValue2((parseInt(data[idCandidate].value[17]['num_votes'])/totalPerState[17])*100);
                     break;
                  case 'RJ':
                     state = "Rio de Janeiro";
-                    votes = formatValue(parseInt(data[idCandidate].value[18]['num_votes']));
+                    votes[0] = formatValue(parseInt(data[idCandidate].value[18]['num_votes']));
+                    votes[1] = formatValue2((parseInt(data[idCandidate].value[18]['num_votes'])/totalPerState[18])*100);
                     break;
                 case 'RN':
                     state = "Rio Grande do Norte";
-                     votes = formatValue(parseInt(data[idCandidate].value[19]['num_votes']));
-                    break;
+                     votes[0] = formatValue(parseInt(data[idCandidate].value[19]['num_votes']));
+                     votes[1] = formatValue2((parseInt(data[idCandidate].value[19]['num_votes'])/totalPerState[19])*100);
+                     break;
                 case 'RO':
                     state = "Rondonia";
-                    votes = formatValue(parseInt(data[idCandidate].value[20]['num_votes']));
+                    votes[0] = formatValue(parseInt(data[idCandidate].value[20]['num_votes']));
+                    votes[1] = formatValue2((parseInt(data[idCandidate].value[20]['num_votes'])/totalPerState[20])*100);
                     break;
                 case 'RR':
                     state = "Roraima";
-                    votes = formatValue(parseInt(data[idCandidate].value[21]['num_votes']));
+                    votes[0] = formatValue(parseInt(data[idCandidate].value[21]['num_votes']));
+                    votes[1] = formatValue2((parseInt(data[idCandidate].value[21]['num_votes'])/totalPerState[21])*100);
                     break;
                 case 'RS':
                     state = "Rio Grande do Sul";
-                    votes = formatValue(parseInt(data[idCandidate].value[22]['num_votes']));
+                    votes[0] = formatValue(parseInt(data[idCandidate].value[22]['num_votes']));
+                    votes[1] = formatValue2((parseInt(data[idCandidate].value[22]['num_votes'])/totalPerState[22])*100);
                     break;
                  case 'SC':
                     state = "Santa Catarina";
-                    votes = formatValue(parseInt(data[idCandidate].value[23]['num_votes']));
+                    votes[0] = formatValue(parseInt(data[idCandidate].value[23]['num_votes']));
+                    votes[1] = formatValue2((parseInt(data[idCandidate].value[23]['num_votes'])/totalPerState[23])*100);
                     break;
                 case 'SE':
                     state = "Sergipe";
-                     votes = formatValue(parseInt(data[idCandidate].value[24]['num_votes']));
-                    break;
+                     votes[0] = formatValue(parseInt(data[idCandidate].value[24]['num_votes']));
+                     votes[1] = formatValue2((parseInt(data[idCandidate].value[24]['num_votes'])/totalPerState[24])*100);
+                     break;
                 case 'SP':
                     state = "São Paulo";
-                    votes = formatValue(parseInt(data[idCandidate].value[25]['num_votes']));
+                    votes[0] = formatValue(parseInt(data[idCandidate].value[25]['num_votes']));
+                    votes[1] = formatValue2((parseInt(data[idCandidate].value[25]['num_votes'])/totalPerState[25])*100);
                     break;
                 case 'TO':
                     state = "Tocantins";
-                    votes = formatValue(parseInt(data[idCandidate].value[26]['num_votes']));
+                    votes[0] = formatValue(parseInt(data[idCandidate].value[26]['num_votes']));
+                    votes[1] = formatValue2((parseInt(data[idCandidate].value[26]['num_votes'])/totalPerState[26])*100);
                     break;
                 default:
                     state = "Estado";
-                    votes = formatValue(parseInt(data[idCandidate].value[27]['num_votes']));
-            }
+                    votes[0] = formatValue(parseInt(data[idCandidate].value[27]['num_votes']));
+                    votes[1] = formatValue2((parseInt(data[idCandidate].value[27]['num_votes'])/totalPerState[27])*100);
+                }
 		    tooltip
                 .classed("hidden", false)
                 .attr("style", "left:"+(d3.event.pageX - 300)+"px;top:"+(d3.event.pageY - 60)+"px")
-                .html("<strong>"+state+"<br/>"+"</strong>"+"<strong>Votos:"+votes+"<br/>"+"</strong>")
+                .html("<strong>"+state+"<br/>"+"</strong>"+"<strong>Votos:"+votes[type]+"<br/>"+"</strong>")
                 
 		})
 		.on("mouseout",  function(d,i) {
@@ -310,6 +338,10 @@ function setType(id){
 
 function formatValue(valor) {
     return valor.toLocaleString('pt-BR');
+}
+
+function formatValue2(valor) {
+    return valor.toFixed(2)+'%';
 }
 
 function selectColor(value, v2, type){  
