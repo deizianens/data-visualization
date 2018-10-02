@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Brazil</title>    
+    <title>Eleições 2014</title>    
     <meta charset="utf-8"/>
     <script src="https://d3js.org/d3.v3.min.js"></script>
     <script src="https://d3js.org/d3-queue.v2.min.js"></script>
@@ -17,45 +17,54 @@
     <h4>Eleições 2014</h4>
 
     <div id="candidatosPorEstado">
+        <div class="left-menu">
+            <div id="switch">
+                <!--.or.animated OR-->
+                <div class="diamond"></div>
+                <div class="choice on" onclick="setTurn(0)">1º Turno</div>
+                <div class="choice" onclick="setTurn(1)">2º Turno</div>
+            </div>
+        </div>
         <div class='vertical-menu-wrapper'>
             <ul class="vertical-menu ul--reset">
             <li class="vertical-menu-item is-active">
-                <a class="link--inverse-menu" data-vertical="1" href="" onclick="setCandidate(8)">DILMA ROUSSEF</a>
+                <a id="link--inverse-menu" data-vertical="1" href="" onclick="setCandidate(8)">DILMA ROUSSEFF</a>
             </li>
             <li class="vertical-menu-item">
-                <a class="link--inverse-menu" data-vertical="2" href="" onclick="setCandidate(9)">AÉCIO NEVES</a>
+                <a id="link--inverse-menu" data-vertical="2" href="" onclick="setCandidate(9)">AÉCIO NEVES</a>
             </li>
             <li class="vertical-menu-item">
-                <a class="link--inverse-menu" data-vertical="3" href="" onclick="setCandidate(10)">MARINA SILVA</a>
+                <a class="item-fade" id="link--inverse-menu" data-vertical="3" href="" onclick="setCandidate(10)">MARINA SILVA</a>
             </li>
             <li class="vertical-menu-item">
-                <a class="link--inverse-menu" data-vertical="4" href=""  onclick="setCandidate(3)">LUCIANA GENRO</a>
+                <a class="item-fade" id="link--inverse-menu" data-vertical="4" href=""  onclick="setCandidate(3)">LUCIANA GENRO</a>
             </li>
             <li class="vertical-menu-item">
-                <a class="link--inverse-menu" data-vertical="5" href=""  onclick="setCandidate(4)">EDUARDO JORGE</a>
+                <a class="item-fade" id="link--inverse-menu" data-vertical="5" href=""  onclick="setCandidate(4)">EDUARDO JORGE</a>
             </li>
             <li class="vertical-menu-item">
-                <a class="link--inverse-menu" data-vertical="6" href=""  onclick="setCandidate(1)">LEVY FIDELIX</a>
+                <a class="item-fade" id="link--inverse-menu" data-vertical="6" href=""  onclick="setCandidate(1)">LEVY FIDELIX</a>
             </li>
              <li class="vertical-menu-item">
-                <a class="link--inverse-menu" data-vertical="7" href="" onclick="setCandidate(5)">PASTOR EVERALDO</a>
+                <a class="item-fade" id="link--inverse-menu" data-vertical="7" href="" onclick="setCandidate(5)">PASTOR EVERALDO</a>
             </li>
             <li class="vertical-menu-item">
-                <a class="link--inverse-menu" data-vertical="8" href="" onclick="setCandidate(6)">EYMAEL</a>
+                <a class="item-fade" id="link--inverse-menu" data-vertical="8" href="" onclick="setCandidate(6)">EYMAEL</a>
             </li>
             <li class="vertical-menu-item">
-                    <a class="link--inverse-menu" data-vertical="9" href="" onclick="setCandidate(2)">MAURO IASI</a>
+                <a class="item-fade" id="link--inverse-menu" data-vertical="9" href="" onclick="setCandidate(2)">MAURO IASI</a>
             </li>
             <li class="vertical-menu-item">
-                <a class="link--inverse-menu" data-vertical="10" href="" onclick="setCandidate(0)">ZÉ MARIA</a>
+                <a class="item-fade" id="link--inverse-menu" data-vertical="10" href="" onclick="setCandidate(0)">ZÉ MARIA</a>
             </li>
              <li class="vertical-menu-item">
-                <a class="link--inverse-menu" data-vertical="11" href="" onclick="setCandidate(7)">RUI COSTA PIMENTA</a>
+                <a class="item-fade" id="link--inverse-menu" data-vertical="11" href="" onclick="setCandidate(7)">RUI COSTA PIMENTA</a>
             </li>
             </ul>
             <i class='active-marker'> 
         </div>
         <div id="squareOne"></div>
+        <div id="chart-svg"></div>
         <div class="right-menu">
             <div class="switch-button">
                 <span class="active"></span>
@@ -63,6 +72,7 @@
                 <button class="switch-button-case right" onclick="setType(1)">Percentual</button>
             </div>
         </div>
+        
         <ul class="legend">
                 <li>
                     <em>+3kk&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;80% - 100%</em>
@@ -90,9 +100,8 @@
 
     <footer>Deiziane Natani da Silva</footer>
 
-    
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script type="text/javascript" src="js/brazilmap.js"></script>
-    <script type="text/javascript" src="js/database.js"></script>
      <script type="text/javascript" src="js/script.js"></script>
   </body>
 </html>

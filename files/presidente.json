@@ -2724,19 +2724,7 @@
 		"num_turn": "1",
 		"num_votes": "111641",
 		"cat_political_office": "Presidente"
-	}, {
-		"id_candidate_seq": "280000000083",
-		"id_candidate_num": "13",
-		"cat_candidate_name": "DILMA VANA ROUSSEFF",
-		"cat_state": "AC",
-		"cat_party": "PT",
-		"cat_coalition": "COLIGAÇÃO COM A FORÇA DO POVO",
-		"cat_composition": "PT / PMDB / PSD / PP / PR / PROS / PDT / PC do B / PRB",
-		"cat_eletion_result": "ELEITO",
-		"num_turn": "2",
-		"num_votes": "138982",
-		"cat_political_office": "Presidente"
-	}, {
+	},  {
 		"id_candidate_seq": "280000000083",
 		"id_candidate_num": "13",
 		"cat_candidate_name": "DILMA VANA ROUSSEFF",
@@ -2748,19 +2736,7 @@
 		"num_turn": "1",
 		"num_votes": "703809",
 		"cat_political_office": "Presidente"
-	}, {
-		"id_candidate_seq": "280000000083",
-		"id_candidate_num": "13",
-		"cat_candidate_name": "DILMA VANA ROUSSEFF",
-		"cat_state": "AL",
-		"cat_party": "PT",
-		"cat_coalition": "COLIGAÇÃO COM A FORÇA DO POVO",
-		"cat_composition": "PT / PMDB / PSD / PP / PR / PROS / PDT / PC do B / PRB",
-		"cat_eletion_result": "ELEITO",
-		"num_turn": "2",
-		"num_votes": "941445",
-		"cat_political_office": "Presidente"
-	}, {
+	},  {
 		"id_candidate_seq": "280000000083",
 		"id_candidate_num": "13",
 		"cat_candidate_name": "DILMA VANA ROUSSEFF",
@@ -2772,19 +2748,7 @@
 		"num_turn": "1",
 		"num_votes": "915299",
 		"cat_political_office": "Presidente"
-	}, {
-		"id_candidate_seq": "280000000083",
-		"id_candidate_num": "13",
-		"cat_candidate_name": "DILMA VANA ROUSSEFF",
-		"cat_state": "AM",
-		"cat_party": "PT",
-		"cat_coalition": "COLIGAÇÃO COM A FORÇA DO POVO",
-		"cat_composition": "PT / PMDB / PSD / PP / PR / PROS / PDT / PC do B / PRB",
-		"cat_eletion_result": "ELEITO",
-		"num_turn": "2",
-		"num_votes": "1033457",
-		"cat_political_office": "Presidente"
-	}, {
+	},  {
 		"id_candidate_seq": "280000000083",
 		"id_candidate_num": "13",
 		"cat_candidate_name": "DILMA VANA ROUSSEFF",
@@ -2796,19 +2760,7 @@
 		"num_turn": "1",
 		"num_votes": "199016",
 		"cat_political_office": "Presidente"
-	}, {
-		"id_candidate_seq": "280000000083",
-		"id_candidate_num": "13",
-		"cat_candidate_name": "DILMA VANA ROUSSEFF",
-		"cat_state": "AP",
-		"cat_party": "PT",
-		"cat_coalition": "COLIGAÇÃO COM A FORÇA DO POVO",
-		"cat_composition": "PT / PMDB / PSD / PP / PR / PROS / PDT / PC do B / PRB",
-		"cat_eletion_result": "ELEITO",
-		"num_turn": "2",
-		"num_votes": "227509",
-		"cat_political_office": "Presidente"
-	}, {
+	},  {
 		"id_candidate_seq": "280000000083",
 		"id_candidate_num": "13",
 		"cat_candidate_name": "DILMA VANA ROUSSEFF",
@@ -2820,19 +2772,7 @@
 		"num_turn": "1",
 		"num_votes": "4292850",
 		"cat_political_office": "Presidente"
-	}, {
-		"id_candidate_seq": "280000000083",
-		"id_candidate_num": "13",
-		"cat_candidate_name": "DILMA VANA ROUSSEFF",
-		"cat_state": "BA",
-		"cat_party": "PT",
-		"cat_coalition": "COLIGAÇÃO COM A FORÇA DO POVO",
-		"cat_composition": "PT / PMDB / PSD / PP / PR / PROS / PDT / PC do B / PRB",
-		"cat_eletion_result": "ELEITO",
-		"num_turn": "2",
-		"num_votes": "5059860",
-		"cat_political_office": "Presidente"
-	}, {
+	},  {
 		"id_candidate_seq": "280000000083",
 		"id_candidate_num": "13",
 		"cat_candidate_name": "DILMA VANA ROUSSEFF",
@@ -2844,19 +2784,7 @@
 		"num_turn": "1",
 		"num_votes": "3087658",
 		"cat_political_office": "Presidente"
-	}, {
-		"id_candidate_seq": "280000000083",
-		"id_candidate_num": "13",
-		"cat_candidate_name": "DILMA VANA ROUSSEFF",
-		"cat_state": "CE",
-		"cat_party": "PT",
-		"cat_coalition": "COLIGAÇÃO COM A FORÇA DO POVO",
-		"cat_composition": "PT / PMDB / PSD / PP / PR / PROS / PDT / PC do B / PRB",
-		"cat_eletion_result": "ELEITO",
-		"num_turn": "2",
-		"num_votes": "3522884",
-		"cat_political_office": "Presidente"
-	}, {
+	},  {
 		"id_candidate_seq": "280000000083",
 		"id_candidate_num": "13",
 		"cat_candidate_name": "DILMA VANA ROUSSEFF",
@@ -2868,19 +2796,7 @@
 		"num_turn": "1",
 		"num_votes": "363861",
 		"cat_political_office": "Presidente"
-	}, {
-		"id_candidate_seq": "280000000083",
-		"id_candidate_num": "13",
-		"cat_candidate_name": "DILMA VANA ROUSSEFF",
-		"cat_state": "DF",
-		"cat_party": "PT",
-		"cat_coalition": "COLIGAÇÃO COM A FORÇA DO POVO",
-		"cat_composition": "PT / PMDB / PSD / PP / PR / PROS / PDT / PC do B / PRB",
-		"cat_eletion_result": "ELEITO",
-		"num_turn": "2",
-		"num_votes": "582354",
-		"cat_political_office": "Presidente"
-	}, {
+	},  {
 		"id_candidate_seq": "280000000083",
 		"id_candidate_num": "13",
 		"cat_candidate_name": "DILMA VANA ROUSSEFF",
@@ -2892,19 +2808,7 @@
 		"num_turn": "1",
 		"num_votes": "653839",
 		"cat_political_office": "Presidente"
-	}, {
-		"id_candidate_seq": "280000000083",
-		"id_candidate_num": "13",
-		"cat_candidate_name": "DILMA VANA ROUSSEFF",
-		"cat_state": "ES",
-		"cat_party": "PT",
-		"cat_coalition": "COLIGAÇÃO COM A FORÇA DO POVO",
-		"cat_composition": "PT / PMDB / PSD / PP / PR / PROS / PDT / PC do B / PRB",
-		"cat_eletion_result": "ELEITO",
-		"num_turn": "2",
-		"num_votes": "912391",
-		"cat_political_office": "Presidente"
-	}, {
+	},  {
 		"id_candidate_seq": "280000000083",
 		"id_candidate_num": "13",
 		"cat_candidate_name": "DILMA VANA ROUSSEFF",
@@ -2916,19 +2820,7 @@
 		"num_turn": "1",
 		"num_votes": "1035911",
 		"cat_political_office": "Presidente"
-	}, {
-		"id_candidate_seq": "280000000083",
-		"id_candidate_num": "13",
-		"cat_candidate_name": "DILMA VANA ROUSSEFF",
-		"cat_state": "GO",
-		"cat_party": "PT",
-		"cat_coalition": "COLIGAÇÃO COM A FORÇA DO POVO",
-		"cat_composition": "PT / PMDB / PSD / PP / PR / PROS / PDT / PC do B / PRB",
-		"cat_eletion_result": "ELEITO",
-		"num_turn": "2",
-		"num_votes": "1365964",
-		"cat_political_office": "Presidente"
-	}, {
+	},  {
 		"id_candidate_seq": "280000000083",
 		"id_candidate_num": "13",
 		"cat_candidate_name": "DILMA VANA ROUSSEFF",
@@ -2940,19 +2832,7 @@
 		"num_turn": "1",
 		"num_votes": "2187864",
 		"cat_political_office": "Presidente"
-	}, {
-		"id_candidate_seq": "280000000083",
-		"id_candidate_num": "13",
-		"cat_candidate_name": "DILMA VANA ROUSSEFF",
-		"cat_state": "MA",
-		"cat_party": "PT",
-		"cat_coalition": "COLIGAÇÃO COM A FORÇA DO POVO",
-		"cat_composition": "PT / PMDB / PSD / PP / PR / PROS / PDT / PC do B / PRB",
-		"cat_eletion_result": "ELEITO",
-		"num_turn": "2",
-		"num_votes": "2475985",
-		"cat_political_office": "Presidente"
-	}, {
+	},  {
 		"id_candidate_seq": "280000000083",
 		"id_candidate_num": "13",
 		"cat_candidate_name": "DILMA VANA ROUSSEFF",
@@ -2964,19 +2844,7 @@
 		"num_turn": "1",
 		"num_votes": "4830867",
 		"cat_political_office": "Presidente"
-	}, {
-		"id_candidate_seq": "280000000083",
-		"id_candidate_num": "13",
-		"cat_candidate_name": "DILMA VANA ROUSSEFF",
-		"cat_state": "MG",
-		"cat_party": "PT",
-		"cat_coalition": "COLIGAÇÃO COM A FORÇA DO POVO",
-		"cat_composition": "PT / PMDB / PSD / PP / PR / PROS / PDT / PC do B / PRB",
-		"cat_eletion_result": "ELEITO",
-		"num_turn": "2",
-		"num_votes": "5981162",
-		"cat_political_office": "Presidente"
-	}, {
+	},  {
 		"id_candidate_seq": "280000000083",
 		"id_candidate_num": "13",
 		"cat_candidate_name": "DILMA VANA ROUSSEFF",
@@ -2988,19 +2856,7 @@
 		"num_turn": "1",
 		"num_votes": "507063",
 		"cat_political_office": "Presidente"
-	}, {
-		"id_candidate_seq": "280000000083",
-		"id_candidate_num": "13",
-		"cat_candidate_name": "DILMA VANA ROUSSEFF",
-		"cat_state": "MS",
-		"cat_party": "PT",
-		"cat_coalition": "COLIGAÇÃO COM A FORÇA DO POVO",
-		"cat_composition": "PT / PMDB / PSD / PP / PR / PROS / PDT / PC do B / PRB",
-		"cat_eletion_result": "ELEITO",
-		"num_turn": "2",
-		"num_votes": "590965",
-		"cat_political_office": "Presidente"
-	}, {
+	},  {
 		"id_candidate_seq": "280000000083",
 		"id_candidate_num": "13",
 		"cat_candidate_name": "DILMA VANA ROUSSEFF",
@@ -3012,19 +2868,7 @@
 		"num_turn": "1",
 		"num_votes": "616411",
 		"cat_political_office": "Presidente"
-	}, {
-		"id_candidate_seq": "280000000083",
-		"id_candidate_num": "13",
-		"cat_candidate_name": "DILMA VANA ROUSSEFF",
-		"cat_state": "MT",
-		"cat_party": "PT",
-		"cat_coalition": "COLIGAÇÃO COM A FORÇA DO POVO",
-		"cat_composition": "PT / PMDB / PSD / PP / PR / PROS / PDT / PC do B / PRB",
-		"cat_eletion_result": "ELEITO",
-		"num_turn": "2",
-		"num_votes": "717412",
-		"cat_political_office": "Presidente"
-	}, {
+	},  {
 		"id_candidate_seq": "280000000083",
 		"id_candidate_num": "13",
 		"cat_candidate_name": "DILMA VANA ROUSSEFF",
@@ -3035,18 +2879,6 @@
 		"cat_eletion_result": "2º TURNO",
 		"num_turn": "1",
 		"num_votes": "2040981",
-		"cat_political_office": "Presidente"
-	}, {
-		"id_candidate_seq": "280000000083",
-		"id_candidate_num": "13",
-		"cat_candidate_name": "DILMA VANA ROUSSEFF",
-		"cat_state": "PA",
-		"cat_party": "PT",
-		"cat_coalition": "COLIGAÇÃO COM A FORÇA DO POVO",
-		"cat_composition": "PT / PMDB / PSD / PP / PR / PROS / PDT / PC do B / PRB",
-		"cat_eletion_result": "ELEITO",
-		"num_turn": "2",
-		"num_votes": "2104151",
 		"cat_political_office": "Presidente"
 	}, {
 		"id_candidate_seq": "280000000083",
@@ -3064,18 +2896,6 @@
 		"id_candidate_seq": "280000000083",
 		"id_candidate_num": "13",
 		"cat_candidate_name": "DILMA VANA ROUSSEFF",
-		"cat_state": "PB",
-		"cat_party": "PT",
-		"cat_coalition": "COLIGAÇÃO COM A FORÇA DO POVO",
-		"cat_composition": "PT / PMDB / PSD / PP / PR / PROS / PDT / PC do B / PRB",
-		"cat_eletion_result": "ELEITO",
-		"num_turn": "2",
-		"num_votes": "1381305",
-		"cat_political_office": "Presidente"
-	}, {
-		"id_candidate_seq": "280000000083",
-		"id_candidate_num": "13",
-		"cat_candidate_name": "DILMA VANA ROUSSEFF",
 		"cat_state": "PE",
 		"cat_party": "PT",
 		"cat_coalition": "COLIGAÇÃO COM A FORÇA DO POVO",
@@ -3084,19 +2904,7 @@
 		"num_turn": "1",
 		"num_votes": "2127010",
 		"cat_political_office": "Presidente"
-	}, {
-		"id_candidate_seq": "280000000083",
-		"id_candidate_num": "13",
-		"cat_candidate_name": "DILMA VANA ROUSSEFF",
-		"cat_state": "PE",
-		"cat_party": "PT",
-		"cat_coalition": "COLIGAÇÃO COM A FORÇA DO POVO",
-		"cat_composition": "PT / PMDB / PSD / PP / PR / PROS / PDT / PC do B / PRB",
-		"cat_eletion_result": "ELEITO",
-		"num_turn": "2",
-		"num_votes": "3438829",
-		"cat_political_office": "Presidente"
-	}, {
+	},  {
 		"id_candidate_seq": "280000000083",
 		"id_candidate_num": "13",
 		"cat_candidate_name": "DILMA VANA ROUSSEFF",
@@ -3108,19 +2916,7 @@
 		"num_turn": "1",
 		"num_votes": "1235337",
 		"cat_political_office": "Presidente"
-	}, {
-		"id_candidate_seq": "280000000083",
-		"id_candidate_num": "13",
-		"cat_candidate_name": "DILMA VANA ROUSSEFF",
-		"cat_state": "PI",
-		"cat_party": "PT",
-		"cat_coalition": "COLIGAÇÃO COM A FORÇA DO POVO",
-		"cat_composition": "PT / PMDB / PSD / PP / PR / PROS / PDT / PC do B / PRB",
-		"cat_eletion_result": "ELEITO",
-		"num_turn": "2",
-		"num_votes": "1385265",
-		"cat_political_office": "Presidente"
-	}, {
+	},  {
 		"id_candidate_seq": "280000000083",
 		"id_candidate_num": "13",
 		"cat_candidate_name": "DILMA VANA ROUSSEFF",
@@ -3132,19 +2928,7 @@
 		"num_turn": "1",
 		"num_votes": "1973421",
 		"cat_political_office": "Presidente"
-	}, {
-		"id_candidate_seq": "280000000083",
-		"id_candidate_num": "13",
-		"cat_candidate_name": "DILMA VANA ROUSSEFF",
-		"cat_state": "PR",
-		"cat_party": "PT",
-		"cat_coalition": "COLIGAÇÃO COM A FORÇA DO POVO",
-		"cat_composition": "PT / PMDB / PSD / PP / PR / PROS / PDT / PC do B / PRB",
-		"cat_eletion_result": "ELEITO",
-		"num_turn": "2",
-		"num_votes": "2409677",
-		"cat_political_office": "Presidente"
-	}, {
+	},  {
 		"id_candidate_seq": "280000000083",
 		"id_candidate_num": "13",
 		"cat_candidate_name": "DILMA VANA ROUSSEFF",
@@ -3156,19 +2940,7 @@
 		"num_turn": "1",
 		"num_votes": "2971736",
 		"cat_political_office": "Presidente"
-	}, {
-		"id_candidate_seq": "280000000083",
-		"id_candidate_num": "13",
-		"cat_candidate_name": "DILMA VANA ROUSSEFF",
-		"cat_state": "RJ",
-		"cat_party": "PT",
-		"cat_coalition": "COLIGAÇÃO COM A FORÇA DO POVO",
-		"cat_composition": "PT / PMDB / PSD / PP / PR / PROS / PDT / PC do B / PRB",
-		"cat_eletion_result": "ELEITO",
-		"num_turn": "2",
-		"num_votes": "4489860",
-		"cat_political_office": "Presidente"
-	}, {
+	},  {
 		"id_candidate_seq": "280000000083",
 		"id_candidate_num": "13",
 		"cat_candidate_name": "DILMA VANA ROUSSEFF",
@@ -3184,18 +2956,6 @@
 		"id_candidate_seq": "280000000083",
 		"id_candidate_num": "13",
 		"cat_candidate_name": "DILMA VANA ROUSSEFF",
-		"cat_state": "RN",
-		"cat_party": "PT",
-		"cat_coalition": "COLIGAÇÃO COM A FORÇA DO POVO",
-		"cat_composition": "PT / PMDB / PSD / PP / PR / PROS / PDT / PC do B / PRB",
-		"cat_eletion_result": "ELEITO",
-		"num_turn": "2",
-		"num_votes": "1201768",
-		"cat_political_office": "Presidente"
-	}, {
-		"id_candidate_seq": "280000000083",
-		"id_candidate_num": "13",
-		"cat_candidate_name": "DILMA VANA ROUSSEFF",
 		"cat_state": "RO",
 		"cat_party": "PT",
 		"cat_coalition": "COLIGAÇÃO COM A FORÇA DO POVO",
@@ -3204,19 +2964,7 @@
 		"num_turn": "1",
 		"num_votes": "345305",
 		"cat_political_office": "Presidente"
-	}, {
-		"id_candidate_seq": "280000000083",
-		"id_candidate_num": "13",
-		"cat_candidate_name": "DILMA VANA ROUSSEFF",
-		"cat_state": "RO",
-		"cat_party": "PT",
-		"cat_coalition": "COLIGAÇÃO COM A FORÇA DO POVO",
-		"cat_composition": "PT / PMDB / PSD / PP / PR / PROS / PDT / PC do B / PRB",
-		"cat_eletion_result": "ELEITO",
-		"num_turn": "2",
-		"num_votes": "364213",
-		"cat_political_office": "Presidente"
-	}, {
+	},  {
 		"id_candidate_seq": "280000000083",
 		"id_candidate_num": "13",
 		"cat_candidate_name": "DILMA VANA ROUSSEFF",
@@ -3227,18 +2975,6 @@
 		"cat_eletion_result": "2º TURNO",
 		"num_turn": "1",
 		"num_votes": "82942",
-		"cat_political_office": "Presidente"
-	}, {
-		"id_candidate_seq": "280000000083",
-		"id_candidate_num": "13",
-		"cat_candidate_name": "DILMA VANA ROUSSEFF",
-		"cat_state": "RR",
-		"cat_party": "PT",
-		"cat_coalition": "COLIGAÇÃO COM A FORÇA DO POVO",
-		"cat_composition": "PT / PMDB / PSD / PP / PR / PROS / PDT / PC do B / PRB",
-		"cat_eletion_result": "ELEITO",
-		"num_turn": "2",
-		"num_votes": "97425",
 		"cat_political_office": "Presidente"
 	}, {
 		"id_candidate_seq": "280000000083",
@@ -3256,18 +2992,6 @@
 		"id_candidate_seq": "280000000083",
 		"id_candidate_num": "13",
 		"cat_candidate_name": "DILMA VANA ROUSSEFF",
-		"cat_state": "RS",
-		"cat_party": "PT",
-		"cat_coalition": "COLIGAÇÃO COM A FORÇA DO POVO",
-		"cat_composition": "PT / PMDB / PSD / PP / PR / PROS / PDT / PC do B / PRB",
-		"cat_eletion_result": "ELEITO",
-		"num_turn": "2",
-		"num_votes": "2998545",
-		"cat_political_office": "Presidente"
-	}, {
-		"id_candidate_seq": "280000000083",
-		"id_candidate_num": "13",
-		"cat_candidate_name": "DILMA VANA ROUSSEFF",
 		"cat_state": "SC",
 		"cat_party": "PT",
 		"cat_coalition": "COLIGAÇÃO COM A FORÇA DO POVO",
@@ -3276,19 +3000,7 @@
 		"num_turn": "1",
 		"num_votes": "1141102",
 		"cat_political_office": "Presidente"
-	}, {
-		"id_candidate_seq": "280000000083",
-		"id_candidate_num": "13",
-		"cat_candidate_name": "DILMA VANA ROUSSEFF",
-		"cat_state": "SC",
-		"cat_party": "PT",
-		"cat_coalition": "COLIGAÇÃO COM A FORÇA DO POVO",
-		"cat_composition": "PT / PMDB / PSD / PP / PR / PROS / PDT / PC do B / PRB",
-		"cat_eletion_result": "ELEITO",
-		"num_turn": "2",
-		"num_votes": "1354775",
-		"cat_political_office": "Presidente"
-	}, {
+	},  {
 		"id_candidate_seq": "280000000083",
 		"id_candidate_num": "13",
 		"cat_candidate_name": "DILMA VANA ROUSSEFF",
@@ -3300,19 +3012,7 @@
 		"num_turn": "1",
 		"num_votes": "601740",
 		"cat_political_office": "Presidente"
-	}, {
-		"id_candidate_seq": "280000000083",
-		"id_candidate_num": "13",
-		"cat_candidate_name": "DILMA VANA ROUSSEFF",
-		"cat_state": "SE",
-		"cat_party": "PT",
-		"cat_coalition": "COLIGAÇÃO COM A FORÇA DO POVO",
-		"cat_composition": "PT / PMDB / PSD / PP / PR / PROS / PDT / PC do B / PRB",
-		"cat_eletion_result": "ELEITO",
-		"num_turn": "2",
-		"num_votes": "772482",
-		"cat_political_office": "Presidente"
-	}, {
+	},  {
 		"id_candidate_seq": "280000000083",
 		"id_candidate_num": "13",
 		"cat_candidate_name": "DILMA VANA ROUSSEFF",
@@ -3324,19 +3024,7 @@
 		"num_turn": "1",
 		"num_votes": "5930661",
 		"cat_political_office": "Presidente"
-	}, {
-		"id_candidate_seq": "280000000083",
-		"id_candidate_num": "13",
-		"cat_candidate_name": "DILMA VANA ROUSSEFF",
-		"cat_state": "SP",
-		"cat_party": "PT",
-		"cat_coalition": "COLIGAÇÃO COM A FORÇA DO POVO",
-		"cat_composition": "PT / PMDB / PSD / PP / PR / PROS / PDT / PC do B / PRB",
-		"cat_eletion_result": "ELEITO",
-		"num_turn": "2",
-		"num_votes": "8492620",
-		"cat_political_office": "Presidente"
-	}, {
+	},  {
 		"id_candidate_seq": "280000000083",
 		"id_candidate_num": "13",
 		"cat_candidate_name": "DILMA VANA ROUSSEFF",
@@ -3348,19 +3036,7 @@
 		"num_turn": "1",
 		"num_votes": "368431",
 		"cat_political_office": "Presidente"
-	}, {
-		"id_candidate_seq": "280000000083",
-		"id_candidate_num": "13",
-		"cat_candidate_name": "DILMA VANA ROUSSEFF",
-		"cat_state": "TO",
-		"cat_party": "PT",
-		"cat_coalition": "COLIGAÇÃO COM A FORÇA DO POVO",
-		"cat_composition": "PT / PMDB / PSD / PP / PR / PROS / PDT / PC do B / PRB",
-		"cat_eletion_result": "ELEITO",
-		"num_turn": "2",
-		"num_votes": "428774",
-		"cat_political_office": "Presidente"
-	}, {
+	},  {
 		"id_candidate_seq": "280000000083",
 		"id_candidate_num": "13",
 		"cat_candidate_name": "DILMA VANA ROUSSEFF",
@@ -3371,6 +3047,330 @@
 		"cat_eletion_result": "2º TURNO",
 		"num_turn": "1",
 		"num_votes": "24353",
+		"cat_political_office": "Presidente"
+	},  {
+		"id_candidate_seq": "280000000083",
+		"id_candidate_num": "13",
+		"cat_candidate_name": "DILMA VANA ROUSSEFF",
+		"cat_state": "AC",
+		"cat_party": "PT",
+		"cat_coalition": "COLIGAÇÃO COM A FORÇA DO POVO",
+		"cat_composition": "PT / PMDB / PSD / PP / PR / PROS / PDT / PC do B / PRB",
+		"cat_eletion_result": "ELEITO",
+		"num_turn": "2",
+		"num_votes": "138982",
+		"cat_political_office": "Presidente"
+	},  {
+		"id_candidate_seq": "280000000083",
+		"id_candidate_num": "13",
+		"cat_candidate_name": "DILMA VANA ROUSSEFF",
+		"cat_state": "AL",
+		"cat_party": "PT",
+		"cat_coalition": "COLIGAÇÃO COM A FORÇA DO POVO",
+		"cat_composition": "PT / PMDB / PSD / PP / PR / PROS / PDT / PC do B / PRB",
+		"cat_eletion_result": "ELEITO",
+		"num_turn": "2",
+		"num_votes": "941445",
+		"cat_political_office": "Presidente"
+	},  {
+		"id_candidate_seq": "280000000083",
+		"id_candidate_num": "13",
+		"cat_candidate_name": "DILMA VANA ROUSSEFF",
+		"cat_state": "AM",
+		"cat_party": "PT",
+		"cat_coalition": "COLIGAÇÃO COM A FORÇA DO POVO",
+		"cat_composition": "PT / PMDB / PSD / PP / PR / PROS / PDT / PC do B / PRB",
+		"cat_eletion_result": "ELEITO",
+		"num_turn": "2",
+		"num_votes": "1033457",
+		"cat_political_office": "Presidente"
+	},  {
+		"id_candidate_seq": "280000000083",
+		"id_candidate_num": "13",
+		"cat_candidate_name": "DILMA VANA ROUSSEFF",
+		"cat_state": "AP",
+		"cat_party": "PT",
+		"cat_coalition": "COLIGAÇÃO COM A FORÇA DO POVO",
+		"cat_composition": "PT / PMDB / PSD / PP / PR / PROS / PDT / PC do B / PRB",
+		"cat_eletion_result": "ELEITO",
+		"num_turn": "2",
+		"num_votes": "227509",
+		"cat_political_office": "Presidente"
+	},  {
+		"id_candidate_seq": "280000000083",
+		"id_candidate_num": "13",
+		"cat_candidate_name": "DILMA VANA ROUSSEFF",
+		"cat_state": "BA",
+		"cat_party": "PT",
+		"cat_coalition": "COLIGAÇÃO COM A FORÇA DO POVO",
+		"cat_composition": "PT / PMDB / PSD / PP / PR / PROS / PDT / PC do B / PRB",
+		"cat_eletion_result": "ELEITO",
+		"num_turn": "2",
+		"num_votes": "5059860",
+		"cat_political_office": "Presidente"
+	},  {
+		"id_candidate_seq": "280000000083",
+		"id_candidate_num": "13",
+		"cat_candidate_name": "DILMA VANA ROUSSEFF",
+		"cat_state": "CE",
+		"cat_party": "PT",
+		"cat_coalition": "COLIGAÇÃO COM A FORÇA DO POVO",
+		"cat_composition": "PT / PMDB / PSD / PP / PR / PROS / PDT / PC do B / PRB",
+		"cat_eletion_result": "ELEITO",
+		"num_turn": "2",
+		"num_votes": "3522884",
+		"cat_political_office": "Presidente"
+	},  {
+		"id_candidate_seq": "280000000083",
+		"id_candidate_num": "13",
+		"cat_candidate_name": "DILMA VANA ROUSSEFF",
+		"cat_state": "DF",
+		"cat_party": "PT",
+		"cat_coalition": "COLIGAÇÃO COM A FORÇA DO POVO",
+		"cat_composition": "PT / PMDB / PSD / PP / PR / PROS / PDT / PC do B / PRB",
+		"cat_eletion_result": "ELEITO",
+		"num_turn": "2",
+		"num_votes": "582354",
+		"cat_political_office": "Presidente"
+	},  {
+		"id_candidate_seq": "280000000083",
+		"id_candidate_num": "13",
+		"cat_candidate_name": "DILMA VANA ROUSSEFF",
+		"cat_state": "ES",
+		"cat_party": "PT",
+		"cat_coalition": "COLIGAÇÃO COM A FORÇA DO POVO",
+		"cat_composition": "PT / PMDB / PSD / PP / PR / PROS / PDT / PC do B / PRB",
+		"cat_eletion_result": "ELEITO",
+		"num_turn": "2",
+		"num_votes": "912391",
+		"cat_political_office": "Presidente"
+	},  {
+		"id_candidate_seq": "280000000083",
+		"id_candidate_num": "13",
+		"cat_candidate_name": "DILMA VANA ROUSSEFF",
+		"cat_state": "GO",
+		"cat_party": "PT",
+		"cat_coalition": "COLIGAÇÃO COM A FORÇA DO POVO",
+		"cat_composition": "PT / PMDB / PSD / PP / PR / PROS / PDT / PC do B / PRB",
+		"cat_eletion_result": "ELEITO",
+		"num_turn": "2",
+		"num_votes": "1365964",
+		"cat_political_office": "Presidente"
+	},  {
+		"id_candidate_seq": "280000000083",
+		"id_candidate_num": "13",
+		"cat_candidate_name": "DILMA VANA ROUSSEFF",
+		"cat_state": "MA",
+		"cat_party": "PT",
+		"cat_coalition": "COLIGAÇÃO COM A FORÇA DO POVO",
+		"cat_composition": "PT / PMDB / PSD / PP / PR / PROS / PDT / PC do B / PRB",
+		"cat_eletion_result": "ELEITO",
+		"num_turn": "2",
+		"num_votes": "2475985",
+		"cat_political_office": "Presidente"
+	},  {
+		"id_candidate_seq": "280000000083",
+		"id_candidate_num": "13",
+		"cat_candidate_name": "DILMA VANA ROUSSEFF",
+		"cat_state": "MG",
+		"cat_party": "PT",
+		"cat_coalition": "COLIGAÇÃO COM A FORÇA DO POVO",
+		"cat_composition": "PT / PMDB / PSD / PP / PR / PROS / PDT / PC do B / PRB",
+		"cat_eletion_result": "ELEITO",
+		"num_turn": "2",
+		"num_votes": "5981162",
+		"cat_political_office": "Presidente"
+	},  {
+		"id_candidate_seq": "280000000083",
+		"id_candidate_num": "13",
+		"cat_candidate_name": "DILMA VANA ROUSSEFF",
+		"cat_state": "MS",
+		"cat_party": "PT",
+		"cat_coalition": "COLIGAÇÃO COM A FORÇA DO POVO",
+		"cat_composition": "PT / PMDB / PSD / PP / PR / PROS / PDT / PC do B / PRB",
+		"cat_eletion_result": "ELEITO",
+		"num_turn": "2",
+		"num_votes": "590965",
+		"cat_political_office": "Presidente"
+	},  {
+		"id_candidate_seq": "280000000083",
+		"id_candidate_num": "13",
+		"cat_candidate_name": "DILMA VANA ROUSSEFF",
+		"cat_state": "MT",
+		"cat_party": "PT",
+		"cat_coalition": "COLIGAÇÃO COM A FORÇA DO POVO",
+		"cat_composition": "PT / PMDB / PSD / PP / PR / PROS / PDT / PC do B / PRB",
+		"cat_eletion_result": "ELEITO",
+		"num_turn": "2",
+		"num_votes": "717412",
+		"cat_political_office": "Presidente"
+	},  {
+		"id_candidate_seq": "280000000083",
+		"id_candidate_num": "13",
+		"cat_candidate_name": "DILMA VANA ROUSSEFF",
+		"cat_state": "PA",
+		"cat_party": "PT",
+		"cat_coalition": "COLIGAÇÃO COM A FORÇA DO POVO",
+		"cat_composition": "PT / PMDB / PSD / PP / PR / PROS / PDT / PC do B / PRB",
+		"cat_eletion_result": "ELEITO",
+		"num_turn": "2",
+		"num_votes": "2104151",
+		"cat_political_office": "Presidente"
+	},  {
+		"id_candidate_seq": "280000000083",
+		"id_candidate_num": "13",
+		"cat_candidate_name": "DILMA VANA ROUSSEFF",
+		"cat_state": "PB",
+		"cat_party": "PT",
+		"cat_coalition": "COLIGAÇÃO COM A FORÇA DO POVO",
+		"cat_composition": "PT / PMDB / PSD / PP / PR / PROS / PDT / PC do B / PRB",
+		"cat_eletion_result": "ELEITO",
+		"num_turn": "2",
+		"num_votes": "1381305",
+		"cat_political_office": "Presidente"
+	},  {
+		"id_candidate_seq": "280000000083",
+		"id_candidate_num": "13",
+		"cat_candidate_name": "DILMA VANA ROUSSEFF",
+		"cat_state": "PE",
+		"cat_party": "PT",
+		"cat_coalition": "COLIGAÇÃO COM A FORÇA DO POVO",
+		"cat_composition": "PT / PMDB / PSD / PP / PR / PROS / PDT / PC do B / PRB",
+		"cat_eletion_result": "ELEITO",
+		"num_turn": "2",
+		"num_votes": "3438829",
+		"cat_political_office": "Presidente"
+	},  {
+		"id_candidate_seq": "280000000083",
+		"id_candidate_num": "13",
+		"cat_candidate_name": "DILMA VANA ROUSSEFF",
+		"cat_state": "PI",
+		"cat_party": "PT",
+		"cat_coalition": "COLIGAÇÃO COM A FORÇA DO POVO",
+		"cat_composition": "PT / PMDB / PSD / PP / PR / PROS / PDT / PC do B / PRB",
+		"cat_eletion_result": "ELEITO",
+		"num_turn": "2",
+		"num_votes": "1385265",
+		"cat_political_office": "Presidente"
+	},  {
+		"id_candidate_seq": "280000000083",
+		"id_candidate_num": "13",
+		"cat_candidate_name": "DILMA VANA ROUSSEFF",
+		"cat_state": "PR",
+		"cat_party": "PT",
+		"cat_coalition": "COLIGAÇÃO COM A FORÇA DO POVO",
+		"cat_composition": "PT / PMDB / PSD / PP / PR / PROS / PDT / PC do B / PRB",
+		"cat_eletion_result": "ELEITO",
+		"num_turn": "2",
+		"num_votes": "2409677",
+		"cat_political_office": "Presidente"
+	},  {
+		"id_candidate_seq": "280000000083",
+		"id_candidate_num": "13",
+		"cat_candidate_name": "DILMA VANA ROUSSEFF",
+		"cat_state": "RJ",
+		"cat_party": "PT",
+		"cat_coalition": "COLIGAÇÃO COM A FORÇA DO POVO",
+		"cat_composition": "PT / PMDB / PSD / PP / PR / PROS / PDT / PC do B / PRB",
+		"cat_eletion_result": "ELEITO",
+		"num_turn": "2",
+		"num_votes": "4489860",
+		"cat_political_office": "Presidente"
+	},  {
+		"id_candidate_seq": "280000000083",
+		"id_candidate_num": "13",
+		"cat_candidate_name": "DILMA VANA ROUSSEFF",
+		"cat_state": "RN",
+		"cat_party": "PT",
+		"cat_coalition": "COLIGAÇÃO COM A FORÇA DO POVO",
+		"cat_composition": "PT / PMDB / PSD / PP / PR / PROS / PDT / PC do B / PRB",
+		"cat_eletion_result": "ELEITO",
+		"num_turn": "2",
+		"num_votes": "1201768",
+		"cat_political_office": "Presidente"
+	},  {
+		"id_candidate_seq": "280000000083",
+		"id_candidate_num": "13",
+		"cat_candidate_name": "DILMA VANA ROUSSEFF",
+		"cat_state": "RO",
+		"cat_party": "PT",
+		"cat_coalition": "COLIGAÇÃO COM A FORÇA DO POVO",
+		"cat_composition": "PT / PMDB / PSD / PP / PR / PROS / PDT / PC do B / PRB",
+		"cat_eletion_result": "ELEITO",
+		"num_turn": "2",
+		"num_votes": "364213",
+		"cat_political_office": "Presidente"
+	},  {
+		"id_candidate_seq": "280000000083",
+		"id_candidate_num": "13",
+		"cat_candidate_name": "DILMA VANA ROUSSEFF",
+		"cat_state": "RR",
+		"cat_party": "PT",
+		"cat_coalition": "COLIGAÇÃO COM A FORÇA DO POVO",
+		"cat_composition": "PT / PMDB / PSD / PP / PR / PROS / PDT / PC do B / PRB",
+		"cat_eletion_result": "ELEITO",
+		"num_turn": "2",
+		"num_votes": "97425",
+		"cat_political_office": "Presidente"
+	},  {
+		"id_candidate_seq": "280000000083",
+		"id_candidate_num": "13",
+		"cat_candidate_name": "DILMA VANA ROUSSEFF",
+		"cat_state": "RS",
+		"cat_party": "PT",
+		"cat_coalition": "COLIGAÇÃO COM A FORÇA DO POVO",
+		"cat_composition": "PT / PMDB / PSD / PP / PR / PROS / PDT / PC do B / PRB",
+		"cat_eletion_result": "ELEITO",
+		"num_turn": "2",
+		"num_votes": "2998545",
+		"cat_political_office": "Presidente"
+	},  {
+		"id_candidate_seq": "280000000083",
+		"id_candidate_num": "13",
+		"cat_candidate_name": "DILMA VANA ROUSSEFF",
+		"cat_state": "SC",
+		"cat_party": "PT",
+		"cat_coalition": "COLIGAÇÃO COM A FORÇA DO POVO",
+		"cat_composition": "PT / PMDB / PSD / PP / PR / PROS / PDT / PC do B / PRB",
+		"cat_eletion_result": "ELEITO",
+		"num_turn": "2",
+		"num_votes": "1354775",
+		"cat_political_office": "Presidente"
+	},  {
+		"id_candidate_seq": "280000000083",
+		"id_candidate_num": "13",
+		"cat_candidate_name": "DILMA VANA ROUSSEFF",
+		"cat_state": "SE",
+		"cat_party": "PT",
+		"cat_coalition": "COLIGAÇÃO COM A FORÇA DO POVO",
+		"cat_composition": "PT / PMDB / PSD / PP / PR / PROS / PDT / PC do B / PRB",
+		"cat_eletion_result": "ELEITO",
+		"num_turn": "2",
+		"num_votes": "772482",
+		"cat_political_office": "Presidente"
+	},  {
+		"id_candidate_seq": "280000000083",
+		"id_candidate_num": "13",
+		"cat_candidate_name": "DILMA VANA ROUSSEFF",
+		"cat_state": "SP",
+		"cat_party": "PT",
+		"cat_coalition": "COLIGAÇÃO COM A FORÇA DO POVO",
+		"cat_composition": "PT / PMDB / PSD / PP / PR / PROS / PDT / PC do B / PRB",
+		"cat_eletion_result": "ELEITO",
+		"num_turn": "2",
+		"num_votes": "8492620",
+		"cat_political_office": "Presidente"
+	},  {
+		"id_candidate_seq": "280000000083",
+		"id_candidate_num": "13",
+		"cat_candidate_name": "DILMA VANA ROUSSEFF",
+		"cat_state": "TO",
+		"cat_party": "PT",
+		"cat_coalition": "COLIGAÇÃO COM A FORÇA DO POVO",
+		"cat_composition": "PT / PMDB / PSD / PP / PR / PROS / PDT / PC do B / PRB",
+		"cat_eletion_result": "ELEITO",
+		"num_turn": "2",
+		"num_votes": "428774",
 		"cat_political_office": "Presidente"
 	}, {
 		"id_candidate_seq": "280000000083",
@@ -3399,19 +3399,7 @@
 		"num_turn": "1",
 		"num_votes": "116109",
 		"cat_political_office": "Presidente"
-	}, {
-		"id_candidate_seq": "280000000085",
-		"id_candidate_num": "45",
-		"cat_candidate_name": "AÉCIO NEVES DA CUNHA",
-		"cat_state": "AC",
-		"cat_party": "PSDB",
-		"cat_coalition": "MUDA BRASIL",
-		"cat_composition": "PSDB / PMN / SD / DEM / PEN / PTN / PTB / PTC / PT do B",
-		"cat_eletion_result": "NÃO ELEITO",
-		"num_turn": "2",
-		"num_votes": "243677",
-		"cat_political_office": "Presidente"
-	}, {
+	},  {
 		"id_candidate_seq": "280000000085",
 		"id_candidate_num": "45",
 		"cat_candidate_name": "AÉCIO NEVES DA CUNHA",
@@ -3423,19 +3411,7 @@
 		"num_turn": "1",
 		"num_votes": "311830",
 		"cat_political_office": "Presidente"
-	}, {
-		"id_candidate_seq": "280000000085",
-		"id_candidate_num": "45",
-		"cat_candidate_name": "AÉCIO NEVES DA CUNHA",
-		"cat_state": "AL",
-		"cat_party": "PSDB",
-		"cat_coalition": "MUDA BRASIL",
-		"cat_composition": "PSDB / PMN / SD / DEM / PEN / PTN / PTB / PTC / PT do B",
-		"cat_eletion_result": "NÃO ELEITO",
-		"num_turn": "2",
-		"num_votes": "574322",
-		"cat_political_office": "Presidente"
-	}, {
+	},  {
 		"id_candidate_seq": "280000000085",
 		"id_candidate_num": "45",
 		"cat_candidate_name": "AÉCIO NEVES DA CUNHA",
@@ -3451,18 +3427,6 @@
 		"id_candidate_seq": "280000000085",
 		"id_candidate_num": "45",
 		"cat_candidate_name": "AÉCIO NEVES DA CUNHA",
-		"cat_state": "AM",
-		"cat_party": "PSDB",
-		"cat_coalition": "MUDA BRASIL",
-		"cat_composition": "PSDB / PMN / SD / DEM / PEN / PTN / PTB / PTC / PT do B",
-		"cat_eletion_result": "NÃO ELEITO",
-		"num_turn": "2",
-		"num_votes": "556545",
-		"cat_political_office": "Presidente"
-	}, {
-		"id_candidate_seq": "280000000085",
-		"id_candidate_num": "45",
-		"cat_candidate_name": "AÉCIO NEVES DA CUNHA",
 		"cat_state": "AP",
 		"cat_party": "PSDB",
 		"cat_coalition": "MUDA BRASIL",
@@ -3471,19 +3435,7 @@
 		"num_turn": "1",
 		"num_votes": "99125",
 		"cat_political_office": "Presidente"
-	}, {
-		"id_candidate_seq": "280000000085",
-		"id_candidate_num": "45",
-		"cat_candidate_name": "AÉCIO NEVES DA CUNHA",
-		"cat_state": "AP",
-		"cat_party": "PSDB",
-		"cat_coalition": "MUDA BRASIL",
-		"cat_composition": "PSDB / PMN / SD / DEM / PEN / PTN / PTB / PTC / PT do B",
-		"cat_eletion_result": "NÃO ELEITO",
-		"num_turn": "2",
-		"num_votes": "142780",
-		"cat_political_office": "Presidente"
-	}, {
+	},  {
 		"id_candidate_seq": "280000000085",
 		"id_candidate_num": "45",
 		"cat_candidate_name": "AÉCIO NEVES DA CUNHA",
@@ -3494,18 +3446,6 @@
 		"cat_eletion_result": "2º TURNO",
 		"num_turn": "1",
 		"num_votes": "1277512",
-		"cat_political_office": "Presidente"
-	}, {
-		"id_candidate_seq": "280000000085",
-		"id_candidate_num": "45",
-		"cat_candidate_name": "AÉCIO NEVES DA CUNHA",
-		"cat_state": "BA",
-		"cat_party": "PSDB",
-		"cat_coalition": "MUDA BRASIL",
-		"cat_composition": "PSDB / PMN / SD / DEM / PEN / PTN / PTB / PTC / PT do B",
-		"cat_eletion_result": "NÃO ELEITO",
-		"num_turn": "2",
-		"num_votes": "2153111",
 		"cat_political_office": "Presidente"
 	}, {
 		"id_candidate_seq": "280000000085",
@@ -3523,18 +3463,6 @@
 		"id_candidate_seq": "280000000085",
 		"id_candidate_num": "45",
 		"cat_candidate_name": "AÉCIO NEVES DA CUNHA",
-		"cat_state": "CE",
-		"cat_party": "PSDB",
-		"cat_coalition": "MUDA BRASIL",
-		"cat_composition": "PSDB / PMN / SD / DEM / PEN / PTN / PTB / PTC / PT do B",
-		"cat_eletion_result": "NÃO ELEITO",
-		"num_turn": "2",
-		"num_votes": "1068169",
-		"cat_political_office": "Presidente"
-	}, {
-		"id_candidate_seq": "280000000085",
-		"id_candidate_num": "45",
-		"cat_candidate_name": "AÉCIO NEVES DA CUNHA",
 		"cat_state": "DF",
 		"cat_party": "PSDB",
 		"cat_coalition": "MUDA BRASIL",
@@ -3543,19 +3471,7 @@
 		"num_turn": "1",
 		"num_votes": "570494",
 		"cat_political_office": "Presidente"
-	}, {
-		"id_candidate_seq": "280000000085",
-		"id_candidate_num": "45",
-		"cat_candidate_name": "AÉCIO NEVES DA CUNHA",
-		"cat_state": "DF",
-		"cat_party": "PSDB",
-		"cat_coalition": "MUDA BRASIL",
-		"cat_composition": "PSDB / PMN / SD / DEM / PEN / PTN / PTB / PTC / PT do B",
-		"cat_eletion_result": "NÃO ELEITO",
-		"num_turn": "2",
-		"num_votes": "946171",
-		"cat_political_office": "Presidente"
-	}, {
+	},  {
 		"id_candidate_seq": "280000000085",
 		"id_candidate_num": "45",
 		"cat_candidate_name": "AÉCIO NEVES DA CUNHA",
@@ -3567,19 +3483,7 @@
 		"num_turn": "1",
 		"num_votes": "694085",
 		"cat_political_office": "Presidente"
-	}, {
-		"id_candidate_seq": "280000000085",
-		"id_candidate_num": "45",
-		"cat_candidate_name": "AÉCIO NEVES DA CUNHA",
-		"cat_state": "ES",
-		"cat_party": "PSDB",
-		"cat_coalition": "MUDA BRASIL",
-		"cat_composition": "PSDB / PMN / SD / DEM / PEN / PTN / PTB / PTC / PT do B",
-		"cat_eletion_result": "NÃO ELEITO",
-		"num_turn": "2",
-		"num_votes": "1065485",
-		"cat_political_office": "Presidente"
-	}, {
+	},  {
 		"id_candidate_seq": "280000000085",
 		"id_candidate_num": "45",
 		"cat_candidate_name": "AÉCIO NEVES DA CUNHA",
@@ -3591,19 +3495,7 @@
 		"num_turn": "1",
 		"num_votes": "1341320",
 		"cat_political_office": "Presidente"
-	}, {
-		"id_candidate_seq": "280000000085",
-		"id_candidate_num": "45",
-		"cat_candidate_name": "AÉCIO NEVES DA CUNHA",
-		"cat_state": "GO",
-		"cat_party": "PSDB",
-		"cat_coalition": "MUDA BRASIL",
-		"cat_composition": "PSDB / PMN / SD / DEM / PEN / PTN / PTB / PTC / PT do B",
-		"cat_eletion_result": "NÃO ELEITO",
-		"num_turn": "2",
-		"num_votes": "1819139",
-		"cat_political_office": "Presidente"
-	}, {
+	},  {
 		"id_candidate_seq": "280000000085",
 		"id_candidate_num": "45",
 		"cat_candidate_name": "AÉCIO NEVES DA CUNHA",
@@ -3615,19 +3507,7 @@
 		"num_turn": "1",
 		"num_votes": "365655",
 		"cat_political_office": "Presidente"
-	}, {
-		"id_candidate_seq": "280000000085",
-		"id_candidate_num": "45",
-		"cat_candidate_name": "AÉCIO NEVES DA CUNHA",
-		"cat_state": "MA",
-		"cat_party": "PSDB",
-		"cat_coalition": "MUDA BRASIL",
-		"cat_composition": "PSDB / PMN / SD / DEM / PEN / PTN / PTB / PTC / PT do B",
-		"cat_eletion_result": "NÃO ELEITO",
-		"num_turn": "2",
-		"num_votes": "667823",
-		"cat_political_office": "Presidente"
-	}, {
+	},  {
 		"id_candidate_seq": "280000000085",
 		"id_candidate_num": "45",
 		"cat_candidate_name": "AÉCIO NEVES DA CUNHA",
@@ -3638,18 +3518,6 @@
 		"cat_eletion_result": "2º TURNO",
 		"num_turn": "1",
 		"num_votes": "4417876",
-		"cat_political_office": "Presidente"
-	}, {
-		"id_candidate_seq": "280000000085",
-		"id_candidate_num": "45",
-		"cat_candidate_name": "AÉCIO NEVES DA CUNHA",
-		"cat_state": "MG",
-		"cat_party": "PSDB",
-		"cat_coalition": "MUDA BRASIL",
-		"cat_composition": "PSDB / PMN / SD / DEM / PEN / PTN / PTB / PTC / PT do B",
-		"cat_eletion_result": "NÃO ELEITO",
-		"num_turn": "2",
-		"num_votes": "5432465",
 		"cat_political_office": "Presidente"
 	}, {
 		"id_candidate_seq": "280000000085",
@@ -3667,18 +3535,6 @@
 		"id_candidate_seq": "280000000085",
 		"id_candidate_num": "45",
 		"cat_candidate_name": "AÉCIO NEVES DA CUNHA",
-		"cat_state": "MS",
-		"cat_party": "PSDB",
-		"cat_coalition": "MUDA BRASIL",
-		"cat_composition": "PSDB / PMN / SD / DEM / PEN / PTN / PTB / PTC / PT do B",
-		"cat_eletion_result": "NÃO ELEITO",
-		"num_turn": "2",
-		"num_votes": "762797",
-		"cat_political_office": "Presidente"
-	}, {
-		"id_candidate_seq": "280000000085",
-		"id_candidate_num": "45",
-		"cat_candidate_name": "AÉCIO NEVES DA CUNHA",
 		"cat_state": "MT",
 		"cat_party": "PSDB",
 		"cat_coalition": "MUDA BRASIL",
@@ -3686,18 +3542,6 @@
 		"cat_eletion_result": "2º TURNO",
 		"num_turn": "1",
 		"num_votes": "693755",
-		"cat_political_office": "Presidente"
-	}, {
-		"id_candidate_seq": "280000000085",
-		"id_candidate_num": "45",
-		"cat_candidate_name": "AÉCIO NEVES DA CUNHA",
-		"cat_state": "MT",
-		"cat_party": "PSDB",
-		"cat_coalition": "MUDA BRASIL",
-		"cat_composition": "PSDB / PMN / SD / DEM / PEN / PTN / PTB / PTC / PT do B",
-		"cat_eletion_result": "NÃO ELEITO",
-		"num_turn": "2",
-		"num_votes": "865610",
 		"cat_political_office": "Presidente"
 	}, {
 		"id_candidate_seq": "280000000085",
@@ -3715,18 +3559,6 @@
 		"id_candidate_seq": "280000000085",
 		"id_candidate_num": "45",
 		"cat_candidate_name": "AÉCIO NEVES DA CUNHA",
-		"cat_state": "PA",
-		"cat_party": "PSDB",
-		"cat_coalition": "MUDA BRASIL",
-		"cat_composition": "PSDB / PMN / SD / DEM / PEN / PTN / PTB / PTC / PT do B",
-		"cat_eletion_result": "NÃO ELEITO",
-		"num_turn": "2",
-		"num_votes": "1561066",
-		"cat_political_office": "Presidente"
-	}, {
-		"id_candidate_seq": "280000000085",
-		"id_candidate_num": "45",
-		"cat_candidate_name": "AÉCIO NEVES DA CUNHA",
 		"cat_state": "PB",
 		"cat_party": "PSDB",
 		"cat_coalition": "MUDA BRASIL",
@@ -3739,18 +3571,6 @@
 		"id_candidate_seq": "280000000085",
 		"id_candidate_num": "45",
 		"cat_candidate_name": "AÉCIO NEVES DA CUNHA",
-		"cat_state": "PB",
-		"cat_party": "PSDB",
-		"cat_coalition": "MUDA BRASIL",
-		"cat_composition": "PSDB / PMN / SD / DEM / PEN / PTN / PTB / PTC / PT do B",
-		"cat_eletion_result": "NÃO ELEITO",
-		"num_turn": "2",
-		"num_votes": "768475",
-		"cat_political_office": "Presidente"
-	}, {
-		"id_candidate_seq": "280000000085",
-		"id_candidate_num": "45",
-		"cat_candidate_name": "AÉCIO NEVES DA CUNHA",
 		"cat_state": "PE",
 		"cat_party": "PSDB",
 		"cat_coalition": "MUDA BRASIL",
@@ -3758,6 +3578,330 @@
 		"cat_eletion_result": "2º TURNO",
 		"num_turn": "1",
 		"num_votes": "285315",
+		"cat_political_office": "Presidente"
+	}, {
+		"id_candidate_seq": "280000000085",
+		"id_candidate_num": "45",
+		"cat_candidate_name": "AÉCIO NEVES DA CUNHA",
+		"cat_state": "PI",
+		"cat_party": "PSDB",
+		"cat_coalition": "MUDA BRASIL",
+		"cat_composition": "PSDB / PMN / SD / DEM / PEN / PTN / PTB / PTC / PT do B",
+		"cat_eletion_result": "2º TURNO",
+		"num_turn": "1",
+		"num_votes": "242256",
+		"cat_political_office": "Presidente"
+	},  {
+		"id_candidate_seq": "280000000085",
+		"id_candidate_num": "45",
+		"cat_candidate_name": "AÉCIO NEVES DA CUNHA",
+		"cat_state": "PR",
+		"cat_party": "PSDB",
+		"cat_coalition": "MUDA BRASIL",
+		"cat_composition": "PSDB / PMN / SD / DEM / PEN / PTN / PTB / PTC / PT do B",
+		"cat_eletion_result": "2º TURNO",
+		"num_turn": "1",
+		"num_votes": "3021988",
+		"cat_political_office": "Presidente"
+	}, {
+		"id_candidate_seq": "280000000085",
+		"id_candidate_num": "45",
+		"cat_candidate_name": "AÉCIO NEVES DA CUNHA",
+		"cat_state": "RJ",
+		"cat_party": "PSDB",
+		"cat_coalition": "MUDA BRASIL",
+		"cat_composition": "PSDB / PMN / SD / DEM / PEN / PTN / PTB / PTC / PT do B",
+		"cat_eletion_result": "2º TURNO",
+		"num_turn": "1",
+		"num_votes": "2249662",
+		"cat_political_office": "Presidente"
+	}, {
+		"id_candidate_seq": "280000000085",
+		"id_candidate_num": "45",
+		"cat_candidate_name": "AÉCIO NEVES DA CUNHA",
+		"cat_state": "RN",
+		"cat_party": "PSDB",
+		"cat_coalition": "MUDA BRASIL",
+		"cat_composition": "PSDB / PMN / SD / DEM / PEN / PTN / PTB / PTC / PT do B",
+		"cat_eletion_result": "2º TURNO",
+		"num_turn": "1",
+		"num_votes": "330264",
+		"cat_political_office": "Presidente"
+	}, {
+		"id_candidate_seq": "280000000085",
+		"id_candidate_num": "45",
+		"cat_candidate_name": "AÉCIO NEVES DA CUNHA",
+		"cat_state": "RO",
+		"cat_party": "PSDB",
+		"cat_coalition": "MUDA BRASIL",
+		"cat_composition": "PSDB / PMN / SD / DEM / PEN / PTN / PTB / PTC / PT do B",
+		"cat_eletion_result": "2º TURNO",
+		"num_turn": "1",
+		"num_votes": "371937",
+		"cat_political_office": "Presidente"
+	}, {
+		"id_candidate_seq": "280000000085",
+		"id_candidate_num": "45",
+		"cat_candidate_name": "AÉCIO NEVES DA CUNHA",
+		"cat_state": "RR",
+		"cat_party": "PSDB",
+		"cat_coalition": "MUDA BRASIL",
+		"cat_composition": "PSDB / PMN / SD / DEM / PEN / PTN / PTB / PTC / PT do B",
+		"cat_eletion_result": "2º TURNO",
+		"num_turn": "1",
+		"num_votes": "109070",
+		"cat_political_office": "Presidente"
+	}, {
+		"id_candidate_seq": "280000000085",
+		"id_candidate_num": "45",
+		"cat_candidate_name": "AÉCIO NEVES DA CUNHA",
+		"cat_state": "RS",
+		"cat_party": "PSDB",
+		"cat_coalition": "MUDA BRASIL",
+		"cat_composition": "PSDB / PMN / SD / DEM / PEN / PTN / PTB / PTC / PT do B",
+		"cat_eletion_result": "2º TURNO",
+		"num_turn": "1",
+		"num_votes": "2639647",
+		"cat_political_office": "Presidente"
+	}, {
+		"id_candidate_seq": "280000000085",
+		"id_candidate_num": "45",
+		"cat_candidate_name": "AÉCIO NEVES DA CUNHA",
+		"cat_state": "SC",
+		"cat_party": "PSDB",
+		"cat_coalition": "MUDA BRASIL",
+		"cat_composition": "PSDB / PMN / SD / DEM / PEN / PTN / PTB / PTC / PT do B",
+		"cat_eletion_result": "2º TURNO",
+		"num_turn": "1",
+		"num_votes": "1963772",
+		"cat_political_office": "Presidente"
+	}, {
+		"id_candidate_seq": "280000000085",
+		"id_candidate_num": "45",
+		"cat_candidate_name": "AÉCIO NEVES DA CUNHA",
+		"cat_state": "SE",
+		"cat_party": "PSDB",
+		"cat_coalition": "MUDA BRASIL",
+		"cat_composition": "PSDB / PMN / SD / DEM / PEN / PTN / PTB / PTC / PT do B",
+		"cat_eletion_result": "2º TURNO",
+		"num_turn": "1",
+		"num_votes": "248756",
+		"cat_political_office": "Presidente"
+	}, {
+		"id_candidate_seq": "280000000085",
+		"id_candidate_num": "45",
+		"cat_candidate_name": "AÉCIO NEVES DA CUNHA",
+		"cat_state": "SP",
+		"cat_party": "PSDB",
+		"cat_coalition": "MUDA BRASIL",
+		"cat_composition": "PSDB / PMN / SD / DEM / PEN / PTN / PTB / PTC / PT do B",
+		"cat_eletion_result": "2º TURNO",
+		"num_turn": "1",
+		"num_votes": "10165921",
+		"cat_political_office": "Presidente"
+	}, {
+		"id_candidate_seq": "280000000085",
+		"id_candidate_num": "45",
+		"cat_candidate_name": "AÉCIO NEVES DA CUNHA",
+		"cat_state": "TO",
+		"cat_party": "PSDB",
+		"cat_coalition": "MUDA BRASIL",
+		"cat_composition": "PSDB / PMN / SD / DEM / PEN / PTN / PTB / PTC / PT do B",
+		"cat_eletion_result": "2º TURNO",
+		"num_turn": "1",
+		"num_votes": "203183",
+		"cat_political_office": "Presidente"
+	},  {
+		"id_candidate_seq": "280000000085",
+		"id_candidate_num": "45",
+		"cat_candidate_name": "AÉCIO NEVES DA CUNHA",
+		"cat_state": "ZZ",
+		"cat_party": "PSDB",
+		"cat_coalition": "MUDA BRASIL",
+		"cat_composition": "PSDB / PMN / SD / DEM / PEN / PTN / PTB / PTC / PT do B",
+		"cat_eletion_result": "2º TURNO",
+		"num_turn": "1",
+		"num_votes": "65713",
+		"cat_political_office": "Presidente"
+	}, {
+		"id_candidate_seq": "280000000085",
+		"id_candidate_num": "45",
+		"cat_candidate_name": "AÉCIO NEVES DA CUNHA",
+		"cat_state": "AC",
+		"cat_party": "PSDB",
+		"cat_coalition": "MUDA BRASIL",
+		"cat_composition": "PSDB / PMN / SD / DEM / PEN / PTN / PTB / PTC / PT do B",
+		"cat_eletion_result": "NÃO ELEITO",
+		"num_turn": "2",
+		"num_votes": "243677",
+		"cat_political_office": "Presidente"
+	},  {
+		"id_candidate_seq": "280000000085",
+		"id_candidate_num": "45",
+		"cat_candidate_name": "AÉCIO NEVES DA CUNHA",
+		"cat_state": "AL",
+		"cat_party": "PSDB",
+		"cat_coalition": "MUDA BRASIL",
+		"cat_composition": "PSDB / PMN / SD / DEM / PEN / PTN / PTB / PTC / PT do B",
+		"cat_eletion_result": "NÃO ELEITO",
+		"num_turn": "2",
+		"num_votes": "574322",
+		"cat_political_office": "Presidente"
+	},  {
+		"id_candidate_seq": "280000000085",
+		"id_candidate_num": "45",
+		"cat_candidate_name": "AÉCIO NEVES DA CUNHA",
+		"cat_state": "AM",
+		"cat_party": "PSDB",
+		"cat_coalition": "MUDA BRASIL",
+		"cat_composition": "PSDB / PMN / SD / DEM / PEN / PTN / PTB / PTC / PT do B",
+		"cat_eletion_result": "NÃO ELEITO",
+		"num_turn": "2",
+		"num_votes": "556545",
+		"cat_political_office": "Presidente"
+	},  {
+		"id_candidate_seq": "280000000085",
+		"id_candidate_num": "45",
+		"cat_candidate_name": "AÉCIO NEVES DA CUNHA",
+		"cat_state": "AP",
+		"cat_party": "PSDB",
+		"cat_coalition": "MUDA BRASIL",
+		"cat_composition": "PSDB / PMN / SD / DEM / PEN / PTN / PTB / PTC / PT do B",
+		"cat_eletion_result": "NÃO ELEITO",
+		"num_turn": "2",
+		"num_votes": "142780",
+		"cat_political_office": "Presidente"
+	},  {
+		"id_candidate_seq": "280000000085",
+		"id_candidate_num": "45",
+		"cat_candidate_name": "AÉCIO NEVES DA CUNHA",
+		"cat_state": "BA",
+		"cat_party": "PSDB",
+		"cat_coalition": "MUDA BRASIL",
+		"cat_composition": "PSDB / PMN / SD / DEM / PEN / PTN / PTB / PTC / PT do B",
+		"cat_eletion_result": "NÃO ELEITO",
+		"num_turn": "2",
+		"num_votes": "2153111",
+		"cat_political_office": "Presidente"
+	},  {
+		"id_candidate_seq": "280000000085",
+		"id_candidate_num": "45",
+		"cat_candidate_name": "AÉCIO NEVES DA CUNHA",
+		"cat_state": "CE",
+		"cat_party": "PSDB",
+		"cat_coalition": "MUDA BRASIL",
+		"cat_composition": "PSDB / PMN / SD / DEM / PEN / PTN / PTB / PTC / PT do B",
+		"cat_eletion_result": "NÃO ELEITO",
+		"num_turn": "2",
+		"num_votes": "1068169",
+		"cat_political_office": "Presidente"
+	},  {
+		"id_candidate_seq": "280000000085",
+		"id_candidate_num": "45",
+		"cat_candidate_name": "AÉCIO NEVES DA CUNHA",
+		"cat_state": "DF",
+		"cat_party": "PSDB",
+		"cat_coalition": "MUDA BRASIL",
+		"cat_composition": "PSDB / PMN / SD / DEM / PEN / PTN / PTB / PTC / PT do B",
+		"cat_eletion_result": "NÃO ELEITO",
+		"num_turn": "2",
+		"num_votes": "946171",
+		"cat_political_office": "Presidente"
+	},  {
+		"id_candidate_seq": "280000000085",
+		"id_candidate_num": "45",
+		"cat_candidate_name": "AÉCIO NEVES DA CUNHA",
+		"cat_state": "ES",
+		"cat_party": "PSDB",
+		"cat_coalition": "MUDA BRASIL",
+		"cat_composition": "PSDB / PMN / SD / DEM / PEN / PTN / PTB / PTC / PT do B",
+		"cat_eletion_result": "NÃO ELEITO",
+		"num_turn": "2",
+		"num_votes": "1065485",
+		"cat_political_office": "Presidente"
+	},  {
+		"id_candidate_seq": "280000000085",
+		"id_candidate_num": "45",
+		"cat_candidate_name": "AÉCIO NEVES DA CUNHA",
+		"cat_state": "GO",
+		"cat_party": "PSDB",
+		"cat_coalition": "MUDA BRASIL",
+		"cat_composition": "PSDB / PMN / SD / DEM / PEN / PTN / PTB / PTC / PT do B",
+		"cat_eletion_result": "NÃO ELEITO",
+		"num_turn": "2",
+		"num_votes": "1819139",
+		"cat_political_office": "Presidente"
+	},  {
+		"id_candidate_seq": "280000000085",
+		"id_candidate_num": "45",
+		"cat_candidate_name": "AÉCIO NEVES DA CUNHA",
+		"cat_state": "MA",
+		"cat_party": "PSDB",
+		"cat_coalition": "MUDA BRASIL",
+		"cat_composition": "PSDB / PMN / SD / DEM / PEN / PTN / PTB / PTC / PT do B",
+		"cat_eletion_result": "NÃO ELEITO",
+		"num_turn": "2",
+		"num_votes": "667823",
+		"cat_political_office": "Presidente"
+	},  {
+		"id_candidate_seq": "280000000085",
+		"id_candidate_num": "45",
+		"cat_candidate_name": "AÉCIO NEVES DA CUNHA",
+		"cat_state": "MG",
+		"cat_party": "PSDB",
+		"cat_coalition": "MUDA BRASIL",
+		"cat_composition": "PSDB / PMN / SD / DEM / PEN / PTN / PTB / PTC / PT do B",
+		"cat_eletion_result": "NÃO ELEITO",
+		"num_turn": "2",
+		"num_votes": "5432465",
+		"cat_political_office": "Presidente"
+	},  {
+		"id_candidate_seq": "280000000085",
+		"id_candidate_num": "45",
+		"cat_candidate_name": "AÉCIO NEVES DA CUNHA",
+		"cat_state": "MS",
+		"cat_party": "PSDB",
+		"cat_coalition": "MUDA BRASIL",
+		"cat_composition": "PSDB / PMN / SD / DEM / PEN / PTN / PTB / PTC / PT do B",
+		"cat_eletion_result": "NÃO ELEITO",
+		"num_turn": "2",
+		"num_votes": "762797",
+		"cat_political_office": "Presidente"
+	},  {
+		"id_candidate_seq": "280000000085",
+		"id_candidate_num": "45",
+		"cat_candidate_name": "AÉCIO NEVES DA CUNHA",
+		"cat_state": "MT",
+		"cat_party": "PSDB",
+		"cat_coalition": "MUDA BRASIL",
+		"cat_composition": "PSDB / PMN / SD / DEM / PEN / PTN / PTB / PTC / PT do B",
+		"cat_eletion_result": "NÃO ELEITO",
+		"num_turn": "2",
+		"num_votes": "865610",
+		"cat_political_office": "Presidente"
+	},  {
+		"id_candidate_seq": "280000000085",
+		"id_candidate_num": "45",
+		"cat_candidate_name": "AÉCIO NEVES DA CUNHA",
+		"cat_state": "PA",
+		"cat_party": "PSDB",
+		"cat_coalition": "MUDA BRASIL",
+		"cat_composition": "PSDB / PMN / SD / DEM / PEN / PTN / PTB / PTC / PT do B",
+		"cat_eletion_result": "NÃO ELEITO",
+		"num_turn": "2",
+		"num_votes": "1561066",
+		"cat_political_office": "Presidente"
+	},  {
+		"id_candidate_seq": "280000000085",
+		"id_candidate_num": "45",
+		"cat_candidate_name": "AÉCIO NEVES DA CUNHA",
+		"cat_state": "PB",
+		"cat_party": "PSDB",
+		"cat_coalition": "MUDA BRASIL",
+		"cat_composition": "PSDB / PMN / SD / DEM / PEN / PTN / PTB / PTC / PT do B",
+		"cat_eletion_result": "NÃO ELEITO",
+		"num_turn": "2",
+		"num_votes": "768475",
 		"cat_political_office": "Presidente"
 	}, {
 		"id_candidate_seq": "280000000085",
@@ -3779,33 +3923,9 @@
 		"cat_party": "PSDB",
 		"cat_coalition": "MUDA BRASIL",
 		"cat_composition": "PSDB / PMN / SD / DEM / PEN / PTN / PTB / PTC / PT do B",
-		"cat_eletion_result": "2º TURNO",
-		"num_turn": "1",
-		"num_votes": "242256",
-		"cat_political_office": "Presidente"
-	}, {
-		"id_candidate_seq": "280000000085",
-		"id_candidate_num": "45",
-		"cat_candidate_name": "AÉCIO NEVES DA CUNHA",
-		"cat_state": "PI",
-		"cat_party": "PSDB",
-		"cat_coalition": "MUDA BRASIL",
-		"cat_composition": "PSDB / PMN / SD / DEM / PEN / PTN / PTB / PTC / PT do B",
 		"cat_eletion_result": "NÃO ELEITO",
 		"num_turn": "2",
 		"num_votes": "384157",
-		"cat_political_office": "Presidente"
-	}, {
-		"id_candidate_seq": "280000000085",
-		"id_candidate_num": "45",
-		"cat_candidate_name": "AÉCIO NEVES DA CUNHA",
-		"cat_state": "PR",
-		"cat_party": "PSDB",
-		"cat_coalition": "MUDA BRASIL",
-		"cat_composition": "PSDB / PMN / SD / DEM / PEN / PTN / PTB / PTC / PT do B",
-		"cat_eletion_result": "2º TURNO",
-		"num_turn": "1",
-		"num_votes": "3021988",
 		"cat_political_office": "Presidente"
 	}, {
 		"id_candidate_seq": "280000000085",
@@ -3827,33 +3947,9 @@
 		"cat_party": "PSDB",
 		"cat_coalition": "MUDA BRASIL",
 		"cat_composition": "PSDB / PMN / SD / DEM / PEN / PTN / PTB / PTC / PT do B",
-		"cat_eletion_result": "2º TURNO",
-		"num_turn": "1",
-		"num_votes": "2249662",
-		"cat_political_office": "Presidente"
-	}, {
-		"id_candidate_seq": "280000000085",
-		"id_candidate_num": "45",
-		"cat_candidate_name": "AÉCIO NEVES DA CUNHA",
-		"cat_state": "RJ",
-		"cat_party": "PSDB",
-		"cat_coalition": "MUDA BRASIL",
-		"cat_composition": "PSDB / PMN / SD / DEM / PEN / PTN / PTB / PTC / PT do B",
 		"cat_eletion_result": "NÃO ELEITO",
 		"num_turn": "2",
 		"num_votes": "3685122",
-		"cat_political_office": "Presidente"
-	}, {
-		"id_candidate_seq": "280000000085",
-		"id_candidate_num": "45",
-		"cat_candidate_name": "AÉCIO NEVES DA CUNHA",
-		"cat_state": "RN",
-		"cat_party": "PSDB",
-		"cat_coalition": "MUDA BRASIL",
-		"cat_composition": "PSDB / PMN / SD / DEM / PEN / PTN / PTB / PTC / PT do B",
-		"cat_eletion_result": "2º TURNO",
-		"num_turn": "1",
-		"num_votes": "330264",
 		"cat_political_office": "Presidente"
 	}, {
 		"id_candidate_seq": "280000000085",
@@ -3875,33 +3971,9 @@
 		"cat_party": "PSDB",
 		"cat_coalition": "MUDA BRASIL",
 		"cat_composition": "PSDB / PMN / SD / DEM / PEN / PTN / PTB / PTC / PT do B",
-		"cat_eletion_result": "2º TURNO",
-		"num_turn": "1",
-		"num_votes": "371937",
-		"cat_political_office": "Presidente"
-	}, {
-		"id_candidate_seq": "280000000085",
-		"id_candidate_num": "45",
-		"cat_candidate_name": "AÉCIO NEVES DA CUNHA",
-		"cat_state": "RO",
-		"cat_party": "PSDB",
-		"cat_coalition": "MUDA BRASIL",
-		"cat_composition": "PSDB / PMN / SD / DEM / PEN / PTN / PTB / PTC / PT do B",
 		"cat_eletion_result": "NÃO ELEITO",
 		"num_turn": "2",
 		"num_votes": "442698",
-		"cat_political_office": "Presidente"
-	}, {
-		"id_candidate_seq": "280000000085",
-		"id_candidate_num": "45",
-		"cat_candidate_name": "AÉCIO NEVES DA CUNHA",
-		"cat_state": "RR",
-		"cat_party": "PSDB",
-		"cat_coalition": "MUDA BRASIL",
-		"cat_composition": "PSDB / PMN / SD / DEM / PEN / PTN / PTB / PTC / PT do B",
-		"cat_eletion_result": "2º TURNO",
-		"num_turn": "1",
-		"num_votes": "109070",
 		"cat_political_office": "Presidente"
 	}, {
 		"id_candidate_seq": "280000000085",
@@ -3919,13 +3991,13 @@
 		"id_candidate_seq": "280000000085",
 		"id_candidate_num": "45",
 		"cat_candidate_name": "AÉCIO NEVES DA CUNHA",
-		"cat_state": "RS",
+		"cat_state": "SC",
 		"cat_party": "PSDB",
 		"cat_coalition": "MUDA BRASIL",
 		"cat_composition": "PSDB / PMN / SD / DEM / PEN / PTN / PTB / PTC / PT do B",
-		"cat_eletion_result": "2º TURNO",
-		"num_turn": "1",
-		"num_votes": "2639647",
+		"cat_eletion_result": "NÃO ELEITO",
+		"num_turn": "2",
+		"num_votes": "2472142",
 		"cat_political_office": "Presidente"
 	}, {
 		"id_candidate_seq": "280000000085",
@@ -3943,42 +4015,6 @@
 		"id_candidate_seq": "280000000085",
 		"id_candidate_num": "45",
 		"cat_candidate_name": "AÉCIO NEVES DA CUNHA",
-		"cat_state": "SC",
-		"cat_party": "PSDB",
-		"cat_coalition": "MUDA BRASIL",
-		"cat_composition": "PSDB / PMN / SD / DEM / PEN / PTN / PTB / PTC / PT do B",
-		"cat_eletion_result": "2º TURNO",
-		"num_turn": "1",
-		"num_votes": "1963772",
-		"cat_political_office": "Presidente"
-	}, {
-		"id_candidate_seq": "280000000085",
-		"id_candidate_num": "45",
-		"cat_candidate_name": "AÉCIO NEVES DA CUNHA",
-		"cat_state": "SC",
-		"cat_party": "PSDB",
-		"cat_coalition": "MUDA BRASIL",
-		"cat_composition": "PSDB / PMN / SD / DEM / PEN / PTN / PTB / PTC / PT do B",
-		"cat_eletion_result": "NÃO ELEITO",
-		"num_turn": "2",
-		"num_votes": "2472142",
-		"cat_political_office": "Presidente"
-	}, {
-		"id_candidate_seq": "280000000085",
-		"id_candidate_num": "45",
-		"cat_candidate_name": "AÉCIO NEVES DA CUNHA",
-		"cat_state": "SE",
-		"cat_party": "PSDB",
-		"cat_coalition": "MUDA BRASIL",
-		"cat_composition": "PSDB / PMN / SD / DEM / PEN / PTN / PTB / PTC / PT do B",
-		"cat_eletion_result": "2º TURNO",
-		"num_turn": "1",
-		"num_votes": "248756",
-		"cat_political_office": "Presidente"
-	}, {
-		"id_candidate_seq": "280000000085",
-		"id_candidate_num": "45",
-		"cat_candidate_name": "AÉCIO NEVES DA CUNHA",
 		"cat_state": "SE",
 		"cat_party": "PSDB",
 		"cat_coalition": "MUDA BRASIL",
@@ -3987,19 +4023,7 @@
 		"num_turn": "2",
 		"num_votes": "380654",
 		"cat_political_office": "Presidente"
-	}, {
-		"id_candidate_seq": "280000000085",
-		"id_candidate_num": "45",
-		"cat_candidate_name": "AÉCIO NEVES DA CUNHA",
-		"cat_state": "SP",
-		"cat_party": "PSDB",
-		"cat_coalition": "MUDA BRASIL",
-		"cat_composition": "PSDB / PMN / SD / DEM / PEN / PTN / PTB / PTC / PT do B",
-		"cat_eletion_result": "2º TURNO",
-		"num_turn": "1",
-		"num_votes": "10165921",
-		"cat_political_office": "Presidente"
-	}, {
+	},  {
 		"id_candidate_seq": "280000000085",
 		"id_candidate_num": "45",
 		"cat_candidate_name": "AÉCIO NEVES DA CUNHA",
@@ -4011,19 +4035,7 @@
 		"num_turn": "2",
 		"num_votes": "15311664",
 		"cat_political_office": "Presidente"
-	}, {
-		"id_candidate_seq": "280000000085",
-		"id_candidate_num": "45",
-		"cat_candidate_name": "AÉCIO NEVES DA CUNHA",
-		"cat_state": "TO",
-		"cat_party": "PSDB",
-		"cat_coalition": "MUDA BRASIL",
-		"cat_composition": "PSDB / PMN / SD / DEM / PEN / PTN / PTB / PTC / PT do B",
-		"cat_eletion_result": "2º TURNO",
-		"num_turn": "1",
-		"num_votes": "203183",
-		"cat_political_office": "Presidente"
-	}, {
+	},  {
 		"id_candidate_seq": "280000000085",
 		"id_candidate_num": "45",
 		"cat_candidate_name": "AÉCIO NEVES DA CUNHA",
@@ -4035,19 +4047,7 @@
 		"num_turn": "2",
 		"num_votes": "292176",
 		"cat_political_office": "Presidente"
-	}, {
-		"id_candidate_seq": "280000000085",
-		"id_candidate_num": "45",
-		"cat_candidate_name": "AÉCIO NEVES DA CUNHA",
-		"cat_state": "ZZ",
-		"cat_party": "PSDB",
-		"cat_coalition": "MUDA BRASIL",
-		"cat_composition": "PSDB / PMN / SD / DEM / PEN / PTN / PTB / PTC / PT do B",
-		"cat_eletion_result": "2º TURNO",
-		"num_turn": "1",
-		"num_votes": "65713",
-		"cat_political_office": "Presidente"
-	}, {
+	},{
 		"id_candidate_seq": "280000000085",
 		"id_candidate_num": "45",
 		"cat_candidate_name": "AÉCIO NEVES DA CUNHA",

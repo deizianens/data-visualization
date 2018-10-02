@@ -1,5 +1,6 @@
 var idCandidate = 8;
 var type = 0;
+var turn = 0;
 
 // Define map size on screen 
 var width = 900,
@@ -61,88 +62,88 @@ function ready(error, shp, data) {
 	  .attr("class", function(d) {
         switch(d.id) {
             case 'AC':
-                return selectColor(parseInt(data[idCandidate].value[0]['num_votes']), totalPerState[0],type);
+                return selectColor(parseInt(data[idCandidate].value[(turn*28)+0]['num_votes']), totalPerState[0],type);
                 break;
             case 'AL':
-                return selectColor(parseInt(data[idCandidate].value[1]['num_votes']), totalPerState[1], type);
+                return selectColor(parseInt(data[idCandidate].value[(turn*28)+1]['num_votes']), totalPerState[1], type);
                 break;
             case 'AM':   
-                return selectColor(parseInt(data[idCandidate].value[2]['num_votes']), totalPerState[2], type);
+                return selectColor(parseInt(data[idCandidate].value[(turn*28)+2]['num_votes']), totalPerState[2], type);
                 break;
             case 'AP':
-                return selectColor(parseInt(data[idCandidate].value[3]['num_votes']), totalPerState[3], type);
+                return selectColor(parseInt(data[idCandidate].value[(turn*28)+3]['num_votes']), totalPerState[3], type);
                 break;
             case 'BA':
-                return selectColor(parseInt(data[idCandidate].value[4]['num_votes']), totalPerState[4], type);
+                return selectColor(parseInt(data[idCandidate].value[(turn*28)+4]['num_votes']), totalPerState[4], type);
                 break;
             case 'CE':
-                return selectColor(parseInt(data[idCandidate].value[5]['num_votes']), totalPerState[5], type);
+                return selectColor(parseInt(data[idCandidate].value[(turn*28)+5]['num_votes']), totalPerState[5], type);
                 break;
             case 'DF':
-                return selectColor(parseInt(data[idCandidate].value[6]['num_votes']), totalPerState[6], type);
+                return selectColor(parseInt(data[idCandidate].value[(turn*28)+6]['num_votes']), totalPerState[6], type);
                 break;
             case 'ES':
-                return selectColor(parseInt(data[idCandidate].value[7]['num_votes']), totalPerState[7], type);
+                return selectColor(parseInt(data[idCandidate].value[(turn*28)+7]['num_votes']), totalPerState[7], type);
                 break;
             case 'GO':
-                return selectColor(parseInt(data[idCandidate].value[8]['num_votes']), totalPerState[8], type);             
+                return selectColor(parseInt(data[idCandidate].value[(turn*28)+8]['num_votes']), totalPerState[8], type);             
                 break;
             case 'MA':
-                return selectColor(parseInt(data[idCandidate].value[9]['num_votes']), totalPerState[9], type);
+                return selectColor(parseInt(data[idCandidate].value[(turn*28)+9]['num_votes']), totalPerState[9], type);
                 break;
             case 'MG':
-                return selectColor(parseInt(data[idCandidate].value[10]['num_votes']), totalPerState[10], type);
+                return selectColor(parseInt(data[idCandidate].value[(turn*28)+10]['num_votes']), totalPerState[10], type);
                 break;
             case 'MS':
-                return selectColor(parseInt(data[idCandidate].value[11]['num_votes']), totalPerState[11], type);
+                return selectColor(parseInt(data[idCandidate].value[(turn*28)+11]['num_votes']), totalPerState[11], type);
                 break;
             case 'MT':
-                return selectColor(parseInt(data[idCandidate].value[12]['num_votes']), totalPerState[12], type);
+                return selectColor(parseInt(data[idCandidate].value[(turn*28)+12]['num_votes']), totalPerState[12], type);
                 break;
             case 'PA':
-                return selectColor(parseInt(data[idCandidate].value[13]['num_votes']), totalPerState[13], type);
+                return selectColor(parseInt(data[idCandidate].value[(turn*28)+13]['num_votes']), totalPerState[13], type);
                 break;
             case 'PB':
-                return selectColor(parseInt(data[idCandidate].value[14]['num_votes']), totalPerState[14], type);
+                return selectColor(parseInt(data[idCandidate].value[(turn*28)+14]['num_votes']), totalPerState[14], type);
                 break;
             case 'PE':
-                return selectColor(parseInt(data[idCandidate].value[15]['num_votes']), totalPerState[15], type);
+                return selectColor(parseInt(data[idCandidate].value[(turn*28)+15]['num_votes']), totalPerState[15], type);
                 break;
             case 'PI':
-                return selectColor(parseInt(data[idCandidate].value[16]['num_votes']), totalPerState[16], type);
+                return selectColor(parseInt(data[idCandidate].value[(turn*28)+16]['num_votes']), totalPerState[16], type);
                 break;
             case 'PR':
-                return selectColor(parseInt(data[idCandidate].value[17]['num_votes']), totalPerState[17], type);
+                return selectColor(parseInt(data[idCandidate].value[(turn*28)+17]['num_votes']), totalPerState[17], type);
                 break;
             case 'RJ':
-                return selectColor(parseInt(data[idCandidate].value[18]['num_votes']), totalPerState[18], type);
+                return selectColor(parseInt(data[idCandidate].value[(turn*28)+18]['num_votes']), totalPerState[18], type);
                 break;
             case 'RN':
-                return selectColor(parseInt(data[idCandidate].value[19]['num_votes']), totalPerState[19], type);
+                return selectColor(parseInt(data[idCandidate].value[(turn*28)+19]['num_votes']), totalPerState[19], type);
                 break;
             case 'RO':
-                return selectColor(parseInt(data[idCandidate].value[20]['num_votes']), totalPerState[20], type);
+                return selectColor(parseInt(data[idCandidate].value[(turn*28)+20]['num_votes']), totalPerState[20], type);
                 break;
             case 'RR':
-                return selectColor(parseInt(data[idCandidate].value[21]['num_votes']), totalPerState[21], type);
+                return selectColor(parseInt(data[idCandidate].value[(turn*28)+21]['num_votes']), totalPerState[21], type);
                 break;
             case 'RS':
-                return selectColor(parseInt(data[idCandidate].value[22]['num_votes']), totalPerState[22], type);
+                return selectColor(parseInt(data[idCandidate].value[(turn*28)+22]['num_votes']), totalPerState[22], type);
                 break;
             case 'SC':
-                return selectColor(parseInt(data[idCandidate].value[23]['num_votes']), totalPerState[23], type);
+                return selectColor(parseInt(data[idCandidate].value[(turn*28)+23]['num_votes']), totalPerState[23], type);
                 break;
             case 'SE':
-                return selectColor(parseInt(data[idCandidate].value[24]['num_votes']), totalPerState[24], type);
+                return selectColor(parseInt(data[idCandidate].value[(turn*28)+24]['num_votes']), totalPerState[24], type);
                 break;
             case 'SP':
-                return selectColor(parseInt(data[idCandidate].value[25]['num_votes']), totalPerState[25], type);
+                return selectColor(parseInt(data[idCandidate].value[(turn*28)+25]['num_votes']), totalPerState[25], type);
                 break;
             case 'TO':
-                return selectColor(parseInt(data[idCandidate].value[26]['num_votes']), totalPerState[26], type);
+                return selectColor(parseInt(data[idCandidate].value[(turn*28)+26]['num_votes']), totalPerState[26], type);
                 break;    
             default:
-                return selectColor(parseInt(data[idCandidate].value[27]['num_votes']), totalPerState[27], type);
+                return selectColor(parseInt(data[idCandidate].value[(turn*28)+27]['num_votes']), totalPerState[27], type);
             }
         })
         .on("mouseover", function(d,i) {
@@ -152,143 +153,143 @@ function ready(error, shp, data) {
             switch(d.id){
                 case 'AC':
                     state = "Acre";
-                    votes[0] = formatValue(parseInt(data[idCandidate].value[0]['num_votes']));
-                    votes[1] = formatValue2((parseInt(data[idCandidate].value[0]['num_votes'])/totalPerState[0])*100);
+                    votes[0] = formatValue(parseInt(data[idCandidate].value[(turn*28)+0]['num_votes']));
+                    votes[1] = formatValue2((parseInt(data[idCandidate].value[(turn*28)+0]['num_votes'])/totalPerState[0])*100);
                     break;
                 case 'AL':
                     state = "Alagoas";
-                    votes[0] = formatValue(parseInt(data[idCandidate].value[1]['num_votes']));
-                    votes[1] = formatValue2((parseInt(data[idCandidate].value[1]['num_votes'])/totalPerState[1])*100);
+                    votes[0] = formatValue(parseInt(data[idCandidate].value[(turn*28)+1]['num_votes']));
+                    votes[1] = formatValue2((parseInt(data[idCandidate].value[(turn*28)+1]['num_votes'])/totalPerState[1])*100);
                     break;
                 case 'AM':
                     state = "Amazonas";
-                    votes[0] = formatValue(parseInt(data[idCandidate].value[2]['num_votes']));
-                    votes[1] = formatValue2((parseInt(data[idCandidate].value[2]['num_votes'])/totalPerState[2])*100);
+                    votes[0] = formatValue(parseInt(data[idCandidate].value[(turn*28)+2]['num_votes']));
+                    votes[1] = formatValue2((parseInt(data[idCandidate].value[(turn*28)+2]['num_votes'])/totalPerState[2])*100);
                     break;
                 case 'AP':
                     state = "Amapá";
-                    votes[0] = formatValue(parseInt(data[idCandidate].value[3]['num_votes']));
-                    votes[1] = formatValue2((parseInt(data[idCandidate].value[3]['num_votes'])/totalPerState[3])*100);
+                    votes[0] = formatValue(parseInt(data[idCandidate].value[(turn*28)+3]['num_votes']));
+                    votes[1] = formatValue2((parseInt(data[idCandidate].value[(turn*28)+3]['num_votes'])/totalPerState[3])*100);
                     break;
                  case 'BA':
                     state = "Bahia";
-                    votes[0] = formatValue(parseInt(data[idCandidate].value[4]['num_votes']));
-                    votes[1] = formatValue2((parseInt(data[idCandidate].value[4]['num_votes'])/totalPerState[4])*100);
+                    votes[0] = formatValue(parseInt(data[idCandidate].value[(turn*28)+4]['num_votes']));
+                    votes[1] = formatValue2((parseInt(data[idCandidate].value[(turn*28)+4]['num_votes'])/totalPerState[4])*100);
                     break;
                 case 'CE':
                     state = "Ceará";
-                    votes[0] = formatValue(parseInt(data[idCandidate].value[5]['num_votes']));
-                    votes[1] = formatValue2((parseInt(data[idCandidate].value[5]['num_votes'])/totalPerState[5])*100);
+                    votes[0] = formatValue(parseInt(data[idCandidate].value[(turn*28)+5]['num_votes']));
+                    votes[1] = formatValue2((parseInt(data[idCandidate].value[(turn*28)+5]['num_votes'])/totalPerState[5])*100);
                     break;
                 case 'DF':
                     state = "Distrito Federal";
-                     votes[0] = formatValue(parseInt(data[idCandidate].value[6]['num_votes']));
-                     votes[1] = formatValue2((parseInt(data[idCandidate].value[6]['num_votes'])/totalPerState[6])*100);
+                     votes[0] = formatValue(parseInt(data[idCandidate].value[(turn*28)+6]['num_votes']));
+                     votes[1] = formatValue2((parseInt(data[idCandidate].value[(turn*28)+6]['num_votes'])/totalPerState[6])*100);
                     break;
                 case 'ES':
                     state = "Espírito Santo";
-                     votes[0] = formatValue(parseInt(data[idCandidate].value[7]['num_votes']));
-                     votes[1] = formatValue2((parseInt(data[idCandidate].value[7]['num_votes'])/totalPerState[7])*100);
+                     votes[0] = formatValue(parseInt(data[idCandidate].value[(turn*28)+7]['num_votes']));
+                     votes[1] = formatValue2((parseInt(data[idCandidate].value[(turn*28)+7]['num_votes'])/totalPerState[7])*100);
                      break;
                 case 'GO':
                     state = "Goiás";
-                     votes[0] = formatValue(parseInt(data[idCandidate].value[8]['num_votes']));                    
-                     votes[1] = formatValue2((parseInt(data[idCandidate].value[8]['num_votes'])/totalPerState[8])*100);
+                     votes[0] = formatValue(parseInt(data[idCandidate].value[(turn*28)+8]['num_votes']));                    
+                     votes[1] = formatValue2((parseInt(data[idCandidate].value[(turn*28)+8]['num_votes'])/totalPerState[8])*100);
                     break;
                 case 'MA':
                     state = "Maranhão";
-                    votes[0] = formatValue(parseInt(data[idCandidate].value[9]['num_votes']));
-                    votes[1] = formatValue2((parseInt(data[idCandidate].value[9]['num_votes'])/totalPerState[9])*100);
+                    votes[0] = formatValue(parseInt(data[idCandidate].value[(turn*28)+9]['num_votes']));
+                    votes[1] = formatValue2((parseInt(data[idCandidate].value[(turn*28)+9]['num_votes'])/totalPerState[9])*100);
                     break;
                 case 'MG':
                     state = "Minas Gerais";
-                    votes[0] = formatValue(parseInt(data[idCandidate].value[10]['num_votes']));
-                    votes[1] = formatValue2((parseInt(data[idCandidate].value[10]['num_votes'])/totalPerState[10])*100);
+                    votes[0] = formatValue(parseInt(data[idCandidate].value[(turn*28)+10]['num_votes']));
+                    votes[1] = formatValue2((parseInt(data[idCandidate].value[(turn*28)+10]['num_votes'])/totalPerState[10])*100);
                     break;
                 case 'MS':
                     state = "Mato Grosso do Sul";
-                     votes[0] = formatValue(parseInt(data[idCandidate].value[11]['num_votes']));
-                     votes[1] = formatValue2((parseInt(data[idCandidate].value[11]['num_votes'])/totalPerState[11])*100);
+                     votes[0] = formatValue(parseInt(data[idCandidate].value[(turn*28)+11]['num_votes']));
+                     votes[1] = formatValue2((parseInt(data[idCandidate].value[(turn*28)+11]['num_votes'])/totalPerState[11])*100);
                      break;
                 case 'MT':
                     state = "Mato Grosso";
-                     votes[0] = formatValue(parseInt(data[idCandidate].value[12]['num_votes']));
-                     votes[1] = formatValue2((parseInt(data[idCandidate].value[12]['num_votes'])/totalPerState[12])*100);
+                     votes[0] = formatValue(parseInt(data[idCandidate].value[(turn*28)+12]['num_votes']));
+                     votes[1] = formatValue2((parseInt(data[idCandidate].value[(turn*28)+12]['num_votes'])/totalPerState[12])*100);
                      break;
                 case 'PA':
                     state = "Pará";
-                    votes[0] = formatValue(parseInt(data[idCandidate].value[13]['num_votes']));
-                    votes[1] = formatValue2((parseInt(data[idCandidate].value[13]['num_votes'])/totalPerState[13])*100);
+                    votes[0] = formatValue(parseInt(data[idCandidate].value[(turn*28)+13]['num_votes']));
+                    votes[1] = formatValue2((parseInt(data[idCandidate].value[(turn*28)+13]['num_votes'])/totalPerState[13])*100);
                     break;
                 case 'PB':
                     state = "Paraíba";
-                     votes[0] = formatValue(parseInt(data[idCandidate].value[14]['num_votes']));
-                     votes[1] = formatValue2((parseInt(data[idCandidate].value[14]['num_votes'])/totalPerState[14])*100);
+                     votes[0] = formatValue(parseInt(data[idCandidate].value[(turn*28)+14]['num_votes']));
+                     votes[1] = formatValue2((parseInt(data[idCandidate].value[(turn*28)+14]['num_votes'])/totalPerState[14])*100);
                      break;
                 case 'PE':
                     state = "Pernambuco";
-                     votes[0] = formatValue(parseInt(data[idCandidate].value[15]['num_votes']));
-                     votes[1] = formatValue2((parseInt(data[idCandidate].value[15]['num_votes'])/totalPerState[15])*100);
+                     votes[0] = formatValue(parseInt(data[idCandidate].value[(turn*28)+15]['num_votes']));
+                     votes[1] = formatValue2((parseInt(data[idCandidate].value[(turn*28)+15]['num_votes'])/totalPerState[15])*100);
                      break;
                 case 'PI':
                     state = "Piauí";
-                     votes[0] = formatValue(parseInt(data[idCandidate].value[16]['num_votes']));
-                     votes[1] = formatValue2((parseInt(data[idCandidate].value[16]['num_votes'])/totalPerState[16])*100);
+                     votes[0] = formatValue(parseInt(data[idCandidate].value[(turn*28)+16]['num_votes']));
+                     votes[1] = formatValue2((parseInt(data[idCandidate].value[(turn*28)+16]['num_votes'])/totalPerState[16])*100);
                      break;
                 case 'PR':
                     state = "Paraná";
-                    votes[0] = formatValue(parseInt(data[idCandidate].value[17]['num_votes']));
-                    votes[1] = formatValue2((parseInt(data[idCandidate].value[17]['num_votes'])/totalPerState[17])*100);
+                    votes[0] = formatValue(parseInt(data[idCandidate].value[(turn*28)+17]['num_votes']));
+                    votes[1] = formatValue2((parseInt(data[idCandidate].value[(turn*28)+17]['num_votes'])/totalPerState[17])*100);
                     break;
                  case 'RJ':
                     state = "Rio de Janeiro";
-                    votes[0] = formatValue(parseInt(data[idCandidate].value[18]['num_votes']));
-                    votes[1] = formatValue2((parseInt(data[idCandidate].value[18]['num_votes'])/totalPerState[18])*100);
+                    votes[0] = formatValue(parseInt(data[idCandidate].value[(turn*28)+18]['num_votes']));
+                    votes[1] = formatValue2((parseInt(data[idCandidate].value[(turn*28)+18]['num_votes'])/totalPerState[18])*100);
                     break;
                 case 'RN':
                     state = "Rio Grande do Norte";
-                     votes[0] = formatValue(parseInt(data[idCandidate].value[19]['num_votes']));
-                     votes[1] = formatValue2((parseInt(data[idCandidate].value[19]['num_votes'])/totalPerState[19])*100);
+                     votes[0] = formatValue(parseInt(data[idCandidate].value[(turn*28)+19]['num_votes']));
+                     votes[1] = formatValue2((parseInt(data[idCandidate].value[(turn*28)+19]['num_votes'])/totalPerState[19])*100);
                      break;
                 case 'RO':
                     state = "Rondonia";
-                    votes[0] = formatValue(parseInt(data[idCandidate].value[20]['num_votes']));
-                    votes[1] = formatValue2((parseInt(data[idCandidate].value[20]['num_votes'])/totalPerState[20])*100);
+                    votes[0] = formatValue(parseInt(data[idCandidate].value[(turn*28)+20]['num_votes']));
+                    votes[1] = formatValue2((parseInt(data[idCandidate].value[(turn*28)+20]['num_votes'])/totalPerState[20])*100);
                     break;
                 case 'RR':
                     state = "Roraima";
-                    votes[0] = formatValue(parseInt(data[idCandidate].value[21]['num_votes']));
-                    votes[1] = formatValue2((parseInt(data[idCandidate].value[21]['num_votes'])/totalPerState[21])*100);
+                    votes[0] = formatValue(parseInt(data[idCandidate].value[(turn*28)+21]['num_votes']));
+                    votes[1] = formatValue2((parseInt(data[idCandidate].value[(turn*28)+21]['num_votes'])/totalPerState[21])*100);
                     break;
                 case 'RS':
                     state = "Rio Grande do Sul";
-                    votes[0] = formatValue(parseInt(data[idCandidate].value[22]['num_votes']));
-                    votes[1] = formatValue2((parseInt(data[idCandidate].value[22]['num_votes'])/totalPerState[22])*100);
+                    votes[0] = formatValue(parseInt(data[idCandidate].value[(turn*28)+22]['num_votes']));
+                    votes[1] = formatValue2((parseInt(data[idCandidate].value[(turn*28)+22]['num_votes'])/totalPerState[22])*100);
                     break;
                  case 'SC':
                     state = "Santa Catarina";
-                    votes[0] = formatValue(parseInt(data[idCandidate].value[23]['num_votes']));
-                    votes[1] = formatValue2((parseInt(data[idCandidate].value[23]['num_votes'])/totalPerState[23])*100);
+                    votes[0] = formatValue(parseInt(data[idCandidate].value[(turn*28)+23]['num_votes']));
+                    votes[1] = formatValue2((parseInt(data[idCandidate].value[(turn*28)+23]['num_votes'])/totalPerState[23])*100);
                     break;
                 case 'SE':
                     state = "Sergipe";
-                     votes[0] = formatValue(parseInt(data[idCandidate].value[24]['num_votes']));
-                     votes[1] = formatValue2((parseInt(data[idCandidate].value[24]['num_votes'])/totalPerState[24])*100);
+                     votes[0] = formatValue(parseInt(data[idCandidate].value[(turn*28)+24]['num_votes']));
+                     votes[1] = formatValue2((parseInt(data[idCandidate].value[(turn*28)+24]['num_votes'])/totalPerState[24])*100);
                      break;
                 case 'SP':
                     state = "São Paulo";
-                    votes[0] = formatValue(parseInt(data[idCandidate].value[25]['num_votes']));
-                    votes[1] = formatValue2((parseInt(data[idCandidate].value[25]['num_votes'])/totalPerState[25])*100);
+                    votes[0] = formatValue(parseInt(data[idCandidate].value[(turn*28)+25]['num_votes']));
+                    votes[1] = formatValue2((parseInt(data[idCandidate].value[(turn*28)+25]['num_votes'])/totalPerState[25])*100);
                     break;
                 case 'TO':
                     state = "Tocantins";
-                    votes[0] = formatValue(parseInt(data[idCandidate].value[26]['num_votes']));
-                    votes[1] = formatValue2((parseInt(data[idCandidate].value[26]['num_votes'])/totalPerState[26])*100);
+                    votes[0] = formatValue(parseInt(data[idCandidate].value[(turn*28)+26]['num_votes']));
+                    votes[1] = formatValue2((parseInt(data[idCandidate].value[(turn*28)+26]['num_votes'])/totalPerState[26])*100);
                     break;
                 default:
                     state = "Estado";
-                    votes[0] = formatValue(parseInt(data[idCandidate].value[27]['num_votes']));
-                    votes[1] = formatValue2((parseInt(data[idCandidate].value[27]['num_votes'])/totalPerState[27])*100);
+                    votes[0] = formatValue(parseInt(data[idCandidate].value[(turn*28)+27]['num_votes']));
+                    votes[1] = formatValue2((parseInt(data[idCandidate].value[(turn*28)+27]['num_votes'])/totalPerState[27])*100);
                 }
 		    tooltip
                 .classed("hidden", false)
@@ -310,10 +311,6 @@ function ready(error, shp, data) {
 		.attr("d", path)
 		.attr("class", "state_contour");
      
-
-		//ofsets plus width/height of transform, plsu 20 px of padding, plus 20 extra for tooltip offset off mouse
-		var offsetL = document.getElementById('#squareOne').offsetLeft+(width/2);
-		var offsetT =document.getElementById('#squareOne').offsetTop+(height/2);
 }
 
    
@@ -329,6 +326,28 @@ function setCandidate(id){
 function setType(id){
     type = id;
    
+    d3_queue.queue()
+    .defer(d3.json, "./br_states.json")
+    .defer(d3.json, "./files/presidente.json")
+    .await(ready);
+}
+
+function setTurn(id){
+    turn = id;
+    var item = document.getElementsByClassName("item-fade")
+    
+    if(id==1){
+        for(var i=0; i<9; i++){
+            item[i].classList.add('hidden');
+        }
+    }
+    else{
+        for(var i=0; i<9; i++){
+            item[i].classList.remove('hidden');
+        }
+    }
+    
+
     d3_queue.queue()
     .defer(d3.json, "./br_states.json")
     .defer(d3.json, "./files/presidente.json")
@@ -369,7 +388,6 @@ function selectColor(value, v2, type){
         }
     } else{
         value = (value/v2)*100;
-        console.log(value);
         if(value>80){
             return "mapColor100";
         }
@@ -379,13 +397,10 @@ function selectColor(value, v2, type){
         else if(value<=65 && value>50){
             return "mapColor65";
         }
-        else if(value<=50 && value>35){
-            return "mapColor50";
+        else if(value>30 && value<=50){
+            return "mapColor30";
         }
-        else if(value<=35 && value>25){
-            return "mapColor35";
-        }
-        else if(value>12.5 && value<=25){
+        else if(value>12.5 && value<=30){
             return "mapColor25";
         }
         else if(value>2 && value<=12.5){

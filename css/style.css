@@ -3,6 +3,7 @@ body {
     background-color: #F0F0F0;
     color: #333;
     overflow-x: hidden;
+    
   }
 
 h1 {
@@ -100,14 +101,14 @@ footer {
   font-size: 1.4em;
 }
 
-.link--inverse-menu {
+#link--inverse-menu {
   color:#000000;
   text-decoration: none;
 }
-.link--inverse-menu:visited {
+#link--inverse-menu:visited {
   color:#000000;
 }
-.link--inverse-menu:hover, .link--inverse-menu:active {
+#link--inverse-menu:hover, #link--inverse-menu:active {
   color: #d3d3d3;
 }
 
@@ -118,6 +119,13 @@ footer {
     z-index: 8;
     left: 35%;
     top: 0;
+}
+
+.left-menu{
+    position: relative;
+    z-index: 8;
+    left:50px;
+    top: 120px;
 }
 
 .switch-button {
@@ -177,6 +185,78 @@ footer {
     color: #151515;
 }
 
+/* ----Switch Radio 2 Choices ------
+    Credits: https://codepen.io/larafale/pen/zJfGg?editors=0110 */
+.transition {
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -ms-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+  }
+  #switch {
+    font-size: 0;
+    background: none;
+    display: inline-block;
+    color: rgb(95, 94, 94);
+    vertical-align: middle;
+    border: 1px solid white;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+  #switch .choice {
+    font-size: 10px;
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    padding: 8px;
+    display: inline-block;
+    cursor: pointer;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -ms-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+    vertical-align: middle;
+  }
+  #switch .choice.on {
+    color: #151515;
+    background-color: #fff;
+  }
+  #switch .or {
+    font-size: 10px;
+    color: #fff;
+    position: absolute;
+    margin-top: 19px;
+    margin-left: 108px;
+    z-index: 1;
+  }
+  #switch .diamond {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    margin-top: 15px;
+    margin-left: 116px;
+    background: white;
+    border: 4px solid white; 
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    -webkit-transform-origin: 0 100%;
+    -moz-transform-origin: 0 100%;
+    -ms-transform-origin: 0 100%;
+    -o-transform-origin: 0 100%;
+    transform-origin: 0 100%;
+  }
+
+rect {
+    transition: 0.5s;
+}
+
 rect.contour {
     stroke: #E6E6E6;
     stroke-width:2px;   
@@ -225,32 +305,29 @@ rect.contour {
     fill: #fdd49e;
 }
 .mapColor0k{
-    fill: #FCF3E9;
+    fill: #fef0d9;
 }
 
 .mapColor100{
-    fill: #084081;
+    fill: #005824;
 }
 .mapColor80{
-    fill: #0868ac;
+    fill: #238b45;
 }
 .mapColor65{
-    fill: #2b8cbe;
+    fill: #41ae76;
 }
-.mapColor50{
-    fill: #4eb3d3;
-}
-.mapColor35{
-    fill: #7bccc4;
+.mapColor30{
+    fill: #99d8c9;
 }
 .mapColor25{
-    fill: #a8ddb5;
+    fill: #ccece6;
 }
 .mapColor12{
-    fill: #ccebc5;
+    fill: #e5f5f9;
 }
 .mapColor0{
-    fill: #e0f3db;
+    fill: #f7fcfd;
 }
 
 .legend {
@@ -274,34 +351,34 @@ rect.contour {
   }
   
   .legend li:first-child {
-    border-left: 1.25em solid #930000;
-    border-right: 1.25em solid #084081;
+    border-left: 1.25em solid #990000;
+    border-right: 1.25em solid #005824;
   }
 
   .legend li:nth-child(2) {
-    border-left: 1.25em solid #b30000;
-    border-right: 1.25em solid #2b8cbe;
+    border-left: 1.25em solid #d7301f;
+    border-right: 1.25em solid #238b45;
   }
 
   .legend li:nth-child(3) {
     border-left: 1.25em solid #ef6548;
-    border-right: 1.25em solid #4eb3d3;
+    border-right: 1.25em solid #41ae76;
   }
   .legend li:nth-child(4) {
     border-left: 1.25em solid #fc8d59;
-    border-right: 1.25em solid #7bccc4;
+    border-right: 1.25em solid #99d8c9;
   }
   .legend li:nth-child(5) {
     border-left: 1.25em solid #fdbb84;
-    border-right: 1.25em solid #a8ddb5;
+    border-right: 1.25em solid #ccece6;
   }
   .legend li:nth-child(6) {
     border-left: 1.25em solid #fdd49e;
-    border-right: 1.25em solid #ccebc5;
+    border-right: 1.25em solid #e5f5f9;
   }
   .legend li:nth-child(7) {
-    border-left: 1.25em solid #FCF3E9;
-    border-right: 1.25em solid #e0f3db;
+    border-left: 1.25em solid #fef0d9;
+    border-right: 1.25em solid #f7fcfd;
   }
 
   .legend em {
@@ -418,3 +495,7 @@ div.tooltip {
     font-family: Tahoma;
     fill: #696969; 
   }
+
+ 
+  
+
