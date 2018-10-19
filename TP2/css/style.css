@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+html{
+    margin: 0;
+}
+
+body{
+    font-family: 'Oswald', sans-serif;
+    background: #34495D;
+    font-family: 'Oswald', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    color: #FFF;
+    overflow-x: hidden;
+}
+
+.title{
+    text-align: center;
+}
+
+.container {
+    position: relative;
+    width: 70%;
+    height: 70%;
+    color: black;
+    margin:0 auto;
+  }
+  
