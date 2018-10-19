@@ -17,11 +17,11 @@ body{
     text-align: center;
 }
 
-.container {
+#container {
     position: relative;
-    width: 70%;
-    height: 70%;
-    color: black;
+    width: 1200px;
+    height: 1200px;
+    color: green;
     margin:0 auto;
   }
   
