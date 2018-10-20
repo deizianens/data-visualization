@@ -6,10 +6,9 @@ html{
 
 body{
     font-family: 'Oswald', sans-serif;
-    background: #34495D;
+    background: #dedede;
     font-family: 'Oswald', sans-serif;
     -webkit-font-smoothing: antialiased;
-    color: #FFF;
     overflow-x: hidden;
 }
 
@@ -17,11 +16,30 @@ body{
     text-align: center;
 }
 
-#container {
-    position: relative;
-    width: 1200px;
-    height: 1200px;
-    color: green;
-    margin:0 auto;
-  }
-  
+.background {
+	fill: none;
+	pointer-events: all;
+}
+
+#countries {
+	fill: none;
+}
+
+#countries .activeCount {
+	stroke-width: 3;
+	stroke: #000;
+}
+
+
+/* Style for Custom Tooltip */
+div.tooltip {
+	white-space: pre;
+	position: absolute;
+	text-align: center;
+	padding: 5px;
+	font: 12px sans-serif;
+	background: white;
+	border: 0px;
+	border-radius: 8px;
+	pointer-events: none;
+}
