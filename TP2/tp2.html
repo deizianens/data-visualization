@@ -6,8 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     
     <script src="https://d3js.org/d3.v4.min.js"></script>
-	<script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
-	<script src="https://d3js.org/topojson.v1.min.js"></script>
+	  <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+    <script src="https://d3js.org/topojson.v1.min.js"></script>
     <script src="https://d3js.org/d3-queue.v2.min.js"></script>
     <script src="https://requirejs.org/docs/release/2.3.5/minified/require.js"></script>
 
@@ -22,10 +22,29 @@
     </div>
 
     <!-- happiness map -->
-	<div class="Map" align="center"> </div>
+    <div class="Map" align="center"> </div>
+    <!-- happiness bar chart -->
+    <div class="outer">
+        <h1>Stacked-to-Grouped Bars</h1>
+        <h2>Happiness Report</h2>
+        <div class="inner">
+          <div class="controls">
+            <form title="toggle bar chart between stacked and grouped views">
+              <label><input id="toggleStacked" type="radio" name="mode" value="stacked" checked> Stacked</label>
+              <label><input id="toggleGrouped" type="radio" name="mode" value="grouped"> Grouped</label>
+            </form>
+          </div>
+          <div class="graph">
+            <svg width="960" height="500"></svg>
+          </div>
+        </div>
+      </div>
+      
 
     <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script type="text/javascript" src="js/map.js"></script>
+    <script type="text/javascript" src="js/stacked-bar.js"></script>
+    <!-- <script type="text/javascript" src="js/ranking.js"></script> -->
     <!-- <script type="text/javascript" src="js/script.js"></script> -->
 </body>
 </html>

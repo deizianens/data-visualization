@@ -12,7 +12,7 @@ body{
     overflow-x: hidden;
 }
 
-.title{
+/* .title{
     text-align: center;
 }
 
@@ -31,8 +31,8 @@ body{
 }
 
 
-/* Style for Custom Tooltip */
-div.tooltip {
+Style for Custom Tooltip */
+/* div.tooltip {
 	white-space: pre;
 	position: absolute;
 	text-align: center;
@@ -43,3 +43,104 @@ div.tooltip {
 	border-radius: 8px;
 	pointer-events: none;
 }
+
+/* stacked-bar chart */
+/* .outer {
+	width: 980px;
+	margin-left: auto;
+	margin-right: auto
+  }
+  
+  .inner {
+	width: 960px;
+	border: solid #d9d9d9 1px;
+  }
+  
+  .controls {
+	float: right;
+	margin-top: 10px;
+	margin-right: 38px;
+  }
+  
+  .bar {
+	fill: steelblue;
+  }
+  
+  .axis {
+	font-size: 14px;
+  }
+  
+  .tick  {
+	font-size: 8px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
+  
+  .axis path {
+	display: none;
+  }
+  
+  .legend {
+	font-size: 11px;
+	} */ 
+	
+	.x-axis path, .y-axis path {
+		display: none;
+	}
+	
+	.rank-line {
+		fill: none;
+		stroke: black;
+		stroke-linejoin: round;
+		stroke-linecap: round;
+	}
+	
+	.start-dot, .end-dot {
+		fill: grey;
+	}
+	
+	.tooltip text {
+		font-size: 14px;
+		font-weight: 700;
+		fill: black;
+	}
+	
+	.x-axis text {
+		font-size: 20px;
+		font-weight: 700;
+	}
+	
+	.y-axis text {
+		font-weight: 700;
+	}
+	
+	text {
+		text-shadow: 0 1px 0 #fff, 1px 0 0 #fff, 0 -1px 0 #fff, -1px 0 0 #fff; 
+		font-family: 'Open Sans', sans-serif;
+		opacity: 0.7;
+		font-size: 18px;
+	}
+	
+	.y-label {
+		fill: black;
+		font-size: 18px;
+		font-weight: 700;
+	}
+	
+	.voronoi path {
+		fill: none;
+		pointer-events: all;
+	}
+	
+	.grid-line {
+		stroke: black;
+		opacity: 0.2;
+		stroke-dasharray: 2,2;
+	}
+	
+	.end-label {
+		font-size: 14px;
+		font-weight: 700;
+		fill: black;
+		fill-opacity: 0.7;
+/*       text-anchor: middle; */
+	}

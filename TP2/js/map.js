@@ -262,3 +262,16 @@ function round(value, precision) {
     return Math.round(value * multiplier) / multiplier;
 }
 
+// happiness.set(
+//     convertNametoAlpha3code(d.Country),
+//     d.Region,
+//     d.Rank,
+//     d.Score,
+//     d.Economy,
+//     d.Family,
+//     d.Health,
+//     d.Freedom,
+//     d.Trust,
+//     d.Generosity,
+//     d.Dystopia
+// );
