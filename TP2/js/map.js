@@ -1,4 +1,4 @@
-var year = 2017;
+var year = 2015;
 var countryMapping;
 
 /**

@@ -41,9 +41,9 @@ d3.csv("./data/world-happiness-report-" + year + "-kaggle.csv", addTotalsColumn,
     
     columns = ["Economy", "Family", "Health" , "Freedom", "Trust", "Generosity", "Dystopia"];
     // numCountries = data.length;
-    numCountries = 20;
+    numCountries = 15;
     stack = d3.stack().keys(columns);
-    slicedData = data.slice(index, index+20);
+    slicedData = data.slice(index, index+15);
     // console.log(slicedData);
 
     ready(slicedData, numCountries, stack);
