@@ -1,4 +1,4 @@
-var year = 2015;
+var year = 2016;
 var countryMapping;
 
 /**
@@ -8,6 +8,7 @@ d3.csv("wikipedia-iso-country-codes.csv", function (er, d) {
     countryMapping = d;
 });
 
+// loads country code for map construction
 var getAlpha3CodeFor = function (country_name) {
     for (var i = 0, len = countryMapping.length; i < len; i++) {
         if (countryMapping[i]["English short name lower case"] === country_name)
@@ -15,14 +16,23 @@ var getAlpha3CodeFor = function (country_name) {
     }
 };
 
+var getCountryNameFromAlpha3 = function (country_name){
+    for (var i = 0, len = countryMapping.length; i < len; i++) {
+        if (countryMapping[i]["Alpha-3 code"] === country_name)
+            return countryMapping[i]["English short name lower case"];
+        if (countryMapping[i]["English short name lower case"] === country_name)
+            return countryMapping[i]["English short name lower case"];
+    }
+}
+
 function convertNametoAlpha3code(name) {
     return getAlpha3CodeFor(name);
 }
 
 d3.selectAll("#cloroplethMap").remove();
 
-var width = 960,
-    height = 600,
+var width = 860,
+    height = 550,
     centered;
 
 var happiness = d3.map();
@@ -144,15 +154,24 @@ function ready(error, country) {
     makeLables();
 }
 
-function clickedin(d, x, y, k) {
-    var centroid = path.centroid(d);
-    x = centroid[0];
-    y = centroid[1];
-    k = 2;
-    centered = d;
-    move(d, x, y, k);
-
-    d3.select(d.par);
+function clickedin(d) {
+    $.getScript("js/donut-chart.js",function(){
+        year = 2016;
+        // console.log(d.properties.name);
+        country = d.properties.name;
+        setYearDonut(year);
+        setCountryDonut(getCountryNameFromAlpha3(country));
+        d3.select(".ddonut")
+            .attr("class", "ddonut")
+    });
+    // console.log(year);
+    // d3.selectAll("#cloroplethMap").remove();
+    var element = document.getElementById("map-id");
+    element.classList.add("hidden");
+    tip
+        .transition()
+        .duration(50)
+        .style("opacity", 0);
 }
 
 function clickedout(d, x, y, k) {
@@ -262,16 +281,23 @@ function round(value, precision) {
     return Math.round(value * multiplier) / multiplier;
 }
 
-// happiness.set(
-//     convertNametoAlpha3code(d.Country),
-//     d.Region,
-//     d.Rank,
-//     d.Score,
-//     d.Economy,
-//     d.Family,
-//     d.Health,
-//     d.Freedom,
-//     d.Trust,
-//     d.Generosity,
-//     d.Dystopia
-// );
+function setYearSlider(y){
+    year = y;
+    d3_queue
+    .queue()
+    .defer(
+        d3.json,
+        "https://enjalot.github.io/wwsd/data/world/world-110m.geojson"
+    )
+    .defer(
+        d3.csv,
+        "./data/world-happiness-report-" + year + "-kaggle.csv",
+        function (d) {
+            happiness.set(
+                convertNametoAlpha3code(d.Country),
+                d.Score
+            );
+        }
+    )
+    .await(ready);
+}
