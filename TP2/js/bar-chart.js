@@ -26,11 +26,11 @@ const margin = {
     top: 20,
     right: 20,
     bottom: 20,
-    left: 70
+    left: 100
 };
 
 const width = 500 - margin.left - margin.right,
-    height = 500 - margin.top - margin.bottom;
+    height = 350 - margin.top - margin.bottom;
 
 const tooltip = container
     .append("div")
@@ -74,7 +74,6 @@ function ready(error, data, c) {
         else if(findCountryContinent(data[i].Country) == "Americas"){
             cat[1] += 1; 
             val[1] += parseInt(data[i].Score);
-            console.log(data[i].Country);
         }
         else if(findCountryContinent(data[i].Country) == "Northern America"){
             cat[2] += 1; 
@@ -97,17 +96,17 @@ function ready(error, data, c) {
         }
     }
     
-    const dataValues = [
-        { category: "Africa", value: parseFloat(val[0]/cat[0]).toFixed(1)},
-        { category: "Latin America", value: parseFloat(val[1]/cat[1]).toFixed(1)},
-        { category: "Northern America", value: parseFloat(val[2]/cat[2]).toFixed(1)},
-        { category: "Europe", value: parseFloat(val[3]/cat[3]).toFixed(1)},
-        { category: "Oceania", value: parseFloat(val[4]/cat[4]).toFixed(1)},
-        { category: "Asia", value: parseFloat(val[5]/cat[5]).toFixed(1)}
+    const d = [
+        { category: "Africa", value: parseFloat(val[0]/cat[0]).toFixed(2)},
+        { category: "Latin America", value: parseFloat(val[1]/cat[1]).toFixed(2)},
+        { category: "Northern America", value: parseFloat(val[2]/cat[2]).toFixed(2)},
+        { category: "Europe", value: parseFloat(val[3]/cat[3]).toFixed(2)},
+        { category: "Oceania", value: parseFloat(val[4]/cat[4]).toFixed(2)},
+        { category: "Asia", value: parseFloat(val[5]/cat[5]).toFixed(2)}
     ];
     
-    dataLicenses = dataValues.sort( (a, b) => b['value'] - a['value'])
-    console.log(dataLicenses);
+    dataValues = d.sort( (a, b) => b['value'] - a['value'])
+    // console.log(val[0]/cat[0]);
 
     // include a section for the specific visualization
     const licenses = container
@@ -116,7 +115,7 @@ function ready(error, data, c) {
     // include introductory heading and paragraph
     licenses
         .append("h2")
-        .text("Felicidade por Continente");
+        .text("Ranking de Felicidade");
 
     licenses
         .append("p")
@@ -125,8 +124,30 @@ function ready(error, data, c) {
     licenses
         .append("span")
         .text("(América foi subdividida entre regiões: América do Norte e América Latina)");
-
-    // SVG
+    
+    // licenses
+    //     .append("div")
+    //     .attr("class", `button-group`)
+        
+    // licenses
+    //     .append("i")
+    //     .attr("id", `icon`)
+    
+    // licenses
+    //     .append("ul")
+    //     .attr("id", `dropdown-menu`)
+    
+    // licenses
+    //     .append("li")
+    //     .attr("id", `input`)
+    //     .text("Ranking por");
+    
+    // licenses
+    //     .append("li")
+    //     .attr("id", `input`)
+    //     .text("Ranking por");
+    
+        // SVG
     // include the SVG and nested g element in which to plot the visualization
     const licensesSVG = licenses
         .append("svg")
@@ -140,13 +161,13 @@ function ready(error, data, c) {
     // linear scale for the x axis, detailing the data values
     const licensesXScale = d3
         .scaleLinear()
-        .domain([0, d3.max(dataLicenses, (d) => d.value)])
+        .domain([0, d3.max(dataValues, (d) => d.value)])
         .range([0, width]);
 
     // band scale for the y-axis, with one band for data point
     const licensesYScale = d3
         .scaleBand()
-        .domain(dataLicenses.map(dataLicense => dataLicense.category))
+        .domain(dataValues.map(dataLicense => dataLicense.category))
         .range([0, height]);
 
 
@@ -196,7 +217,7 @@ function ready(error, data, c) {
     // append a rect element for each data point
     licensesSVG
         .selectAll("rect")
-        .data(dataLicenses)
+        .data(dataValues)
         .enter()
         .append("rect")
         // on hover show the tooltip with information regarding the category and the actual number of licenses
@@ -205,14 +226,14 @@ function ready(error, data, c) {
                 .style("opacity", 1)
                 // pageX and pageY allow to target where the cursor lies in a page taller than 100vh
                 // slightly offset the position of the tooltip with respect to the cursor
-                .style("left", `${d3.event.pageX + 10}px`)
-                .style("top", `${d3.event.pageY - 10}px`);
+                .style("left", `${d3.event.pageX - 500}px`)
+                .style("top", `${d3.event.pageY - 170}px`);
             tooltip
                 .select("p.title")
                 .text(() => `${d.category}`);
             tooltip
                 .select("p.description")
-                .text(() => `Number of licenses: ${formatThou(d.value)}`);
+                .text(() => `Score: ${formatThou(d.value)}`);
         })
         .on("mouseout", () => tooltip.style("opacity", 0))
         // include two classes of the hunting category, to style it accordingly

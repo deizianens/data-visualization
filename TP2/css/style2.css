@@ -20,6 +20,7 @@ body {
   font-size: 16px;
 }
 
+
 /* dashboard */
 #app {
   height: 100%;
@@ -424,19 +425,22 @@ body {
   
   /* bar chart */
   .container-chart {
-    width: 90vw;
-    max-width: 550px;
-    margin: 0 auto;
-  }
-  .container-chart section {
-    width: 100%;
+    width: 100vw;
+    max-width: 850px;
     background: #fff;
     filter: drop-shadow(0 1px 1px #fff);
-    margin: 5vh 0;
+    margin: 0 auto;
+  }
+
+  .container-chart section {
+    width: 80%;
+    margin: 0 auto;
     padding: 1rem 1.2rem;
     animation: rollIn 0.4s cubic-bezier(0.26, 1.29, 0.75, 1.41) both;
+    text-align: center;
   }
   .container-chart section h2 {
+    font-size: 1.3rem;
     text-transform: capitalize;
   }
   .container-chart section p {
@@ -450,6 +454,7 @@ body {
   .container-chart section:nth-of-type(2) {
     animation-delay: 2s;
   }
+
   .container-chart #tooltip {
     position: absolute;
     z-index: 100;
@@ -464,6 +469,7 @@ body {
   }
   .container-chart #tooltip p {
     padding: 0 0.25rem;
+    font-size: 1rem;
   }
   .container-chart #tooltip p:nth-of-type(1) {
     border-bottom: 2px solid rgba(15,53,87,0.5);
@@ -543,3 +549,102 @@ body {
     }
   }
   
+  /* dropdown  */
+.card-shadow,
+#dropdown-menu {
+  box-shadow: 0 0.1em 0.25em rgba(0, 0, 0, 0.15), 0 0.1em 0.2em rgba(0, 0, 0, 0.2);
+}
+#input {
+  border: 0;
+  background: transparent;
+  border-bottom: 2px solid #03A9F4;
+  outline: 0;
+  display: block;
+  text-align: left;
+  font-size: 0.95em;
+  width: 210px;
+  cursor: pointer;
+  color: #727272;
+  text-decoration: none;
+  transition: all 550ms cubic-bezier(0.19, 1, 0.22, 1);
+  opacity: 1;
+  -webkit-transform-origin: right top;
+          transform-origin: right top;
+}
+#input.open {
+  opacity: 0;
+}
+/* DROPDOWN
+   ================================== */
+.button-group {
+  position: relative;
+  width: 215px;
+  margin: 0 auto;
+  margin-bottom: 2em;
+  top: 5.5em;
+}
+.button-group .marka {
+  position: absolute;
+  right: 8px;
+  top: 10px;
+  z-index: 9999;
+  cursor: pointer;
+}
+.button-group .marka i {
+  background: grey!important;
+}
+#dropdown-menu {
+  position: absolute;
+  top: -1em;
+  right: 0;
+  left: 0;
+  margin: 1em auto;
+  padding: 1em 1.35em 1em;
+  width: 175px;
+  list-style: none;
+  text-align: left;
+  border-radius: 2px;
+  background: #fafafa;
+  transition: all 350ms cubic-bezier(0.19, 1, 0.22, 1);
+  -webkit-transform: scale(0);
+          transform: scale(0);
+  -webkit-transform-origin: right top;
+          transform-origin: right top;
+}
+#dropdown-menu li {
+  position: relative;
+  line-height: 2.35em;
+  -webkit-transform: translate3d(0, -10px, 0);
+          transform: translate3d(0, -10px, 0);
+  opacity: 0;
+}
+#dropdown-menu li a {
+  color: #222222;
+  text-decoration: none;
+  font-size: 1em;
+}
+#dropdown-menu.open {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+#dropdown-menu.open li {
+  transition: all 350ms cubic-bezier(0.19, 1, 0.22, 1);
+  -webkit-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0);
+  opacity: 1;
+}
+.open li:nth-child(1) {
+  transition-delay: 0.07s !important;
+}
+.open li:nth-child(2) {
+  transition-delay: 0.14s !important;
+}
+.open li:nth-child(3) {
+  transition-delay: 0.21s !important;
+}
+.open li:nth-child(4) {
+  transition-delay: 0.28s !important;
+}
+.open li:nth-child(5) {
+  transition-delay: 0.35s !important;
+}
