@@ -1,6 +1,6 @@
-var year = 2016;
+var year = 2015;
 var countryMapping;
-
+var flag = 0;
 /**
  * Loads the countries mapping.
  */
@@ -103,7 +103,7 @@ d3_queue
 
 function ready(error, country) {
     if (error) throw error;
-
+    // clicked = 0;
     // console.log(country);
     // console.log(happiness.get('BRA'));
     gCountry
@@ -117,7 +117,7 @@ function ready(error, country) {
         .attr("fill", function (d) {
             return colorPurples(happiness.get(d.id));
         })
-        .attr("fill-opacity", .7)
+        .attr("fill-opacity", 1)
         .attr("stroke", "black")
         .on("click", clicked)
         .on("mouseover", function (d) {
@@ -155,11 +155,12 @@ function ready(error, country) {
 }
 
 function clickedin(d) {
+    flag = 1;
     $.getScript("js/donut-chart.js",function(){
-        year = 2016;
+        yearDonut = year;
         // console.log(d.properties.name);
         country = d.properties.name;
-        setYearDonut(year);
+        setYearDonut(yearDonut);
         setCountryDonut(getCountryNameFromAlpha3(country));
         d3.select(".ddonut")
             .attr("class", "ddonut")
@@ -283,21 +284,36 @@ function round(value, precision) {
 
 function setYearSlider(y){
     year = y;
-    d3_queue
-    .queue()
-    .defer(
-        d3.json,
-        "https://enjalot.github.io/wwsd/data/world/world-110m.geojson"
-    )
-    .defer(
-        d3.csv,
-        "./data/world-happiness-report-" + year + "-kaggle.csv",
-        function (d) {
-            happiness.set(
-                convertNametoAlpha3code(d.Country),
-                d.Score
-            );
-        }
-    )
-    .await(ready);
+    if (flag == 0){
+        d3_queue
+        .queue()
+        .defer(
+            d3.json,
+            "https://enjalot.github.io/wwsd/data/world/world-110m.geojson"
+        )
+        .defer(
+            d3.csv,
+            "./data/world-happiness-report-" + year + "-kaggle.csv",
+            function (d) {
+                happiness.set(
+                    convertNametoAlpha3code(d.Country),
+                    d.Score
+                );
+            }
+        )
+        .await(ready);
+    }else{
+        d3.selectAll("#pie-id").remove();
+        var c_aux = document.querySelector("#changeCountry").textContent; 
+        console.log(c_aux);
+        $.getScript("js/donut-chart.js",function(){
+            yearDonut = year;
+            // console.log(d.properties.name);
+            country = c_aux;
+            setYearDonut(yearDonut);
+            setCountryDonut(getCountryNameFromAlpha3(country));
+            d3.select(".ddonut")
+                .attr("class", "ddonut")
+        });
+    }
 }

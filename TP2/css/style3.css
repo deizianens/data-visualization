@@ -516,6 +516,9 @@ body {
     border-radius: 50%;
     margin: 0;
   }
+  .per-country-per-year .key li.active::before {
+    background-color: greenyellow;
+  }
   .per-country-per-year .key li.active.australia {
     background-color: darkgreen;
   }

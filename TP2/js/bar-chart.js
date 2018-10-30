@@ -352,6 +352,7 @@ function setTop(t){
 
 function showCountry(){
     aux += 1;
+    console.log(aux);
     
     d3_queue
     .queue()

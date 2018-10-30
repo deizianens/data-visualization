@@ -1,5 +1,5 @@
 var country = "Brazil";
-var year = 2015;
+var yearDonut = 2015;
 
 function ready(error, data) {
     d3.selectAll("#pie-id").remove();
@@ -13,7 +13,7 @@ function ready(error, data) {
     }
 
     // console.log(layers[1][0]);
-    console.log(country);
+    // console.log(country);
     bakeDonut(data[idx]);
 }
 
@@ -172,7 +172,7 @@ function bakeDonut(d) {
 }
 
 function setYearDonut(y){
-    year = y;
+    yearDonut = y;
     var element = document.getElementById("outer");
     element.classList.remove("hidden");
     // Load data (asynchronously)
@@ -180,7 +180,7 @@ function setYearDonut(y){
     .queue()
     .defer(
         d3.csv,
-        "./data/world-happiness-report-" + year + "-kaggle.csv"
+        "./data/world-happiness-report-" + yearDonut + "-kaggle.csv"
     )
     .await(ready);
     // console.log(y);
@@ -202,6 +202,6 @@ function showMap(){
     element = document.getElementById("map-id");
     element.classList.remove("hidden");
     $.getScript("js/map.js",function(){
-        setYearSlider(year);
+        setYearSlider(yearDonut);
     });
 }
