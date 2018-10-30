@@ -13,7 +13,7 @@
   
   <!-- dashboard -->
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.1/css/bulma.min.css">
-  <link rel="stylesheet" type="text/css" href="https://use.fontawesome.com/releases/v5.0.6/css/all.css">
+  <link rel="stylesheet" type="text/css" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css">
   <link rel="stylesheet" type="text/css" href="css/style2.css">
   <title>TP2</title>
 </head>
@@ -36,7 +36,7 @@
                 </div>
               </div>
               <div class="menu-list__main is-uppercase has-text-left">
-                <li><a class="subtitle is-7 active"><i class="fas fa-cubes"></i>Ano</a></li>
+                <li><a class="subtitle is-7 active"><i class="fas fa-calendar-alt"></i>Ano</a></li>
                 <section class="grey">                    
                     <div class="slidemenu">
                       <!--Item 1-->
@@ -58,10 +58,10 @@
                       <!--Slider Bar End-->
                     </div>
                   </section>
-                <li><a class="subtitle is-7" href="tp2.html"><i class="fas fa-user"></i>Mapa</a></li>
-                <li><a class="subtitle is-7"><i class="fas fa-database"></i> Database</a></li>
-                <li><a class="subtitle is-7"><i class="far fa-chart-bar"></i> Statistics</a></li>
-                <li class="menu-list__outlier"><a class="subtitle is-7"><i class="fas fa-cog"></i> Sobre</a></li>
+                <li><a class="subtitle is-7" href="tp2.html"><i class="fas fa-globe-americas"></i>Mapa</a></li>
+                <li><a class="subtitle is-7" href="timeline.html"><i class="fas fa-chart-line"></i> Linha do Tempo</a></li>
+               
+                <li class="menu-list__outlier"><a class="subtitle is-7"><i class="fas fa-info-circle"></i> Sobre</a></li>
               </div>
             </ul>
           </aside>
@@ -81,17 +81,42 @@
               </div>
               <div class="row">
                 <div class="content">
+                    <h2>Ranking de Felicidade</h2>
+                    <p>Comparação do nível de felicidade entre países</p>
+                    <span>(América foi subdividida entre regiões: América do Norte e América Latina)</span>
                     <div class="container-chart">
+                        <div class="search">
+                            <input id="search-input" class="search__input" placeholder="Search"/>
+                            <button class="fa fa-search search__button" onclick="showCountry()"></button>
+                          </div>
                             <div class="button-group">
                                     <i id="icon"></i>
                                     <a id="input" href="">Ranking por</a>
                                       <ul id="dropdown-menu">
-                                        <li><a href="#">País</a></li>
-                                        <li><a href="#">Região</a></li>
+                                        <li><a href="#" onclick="setRank(0)">Região</a></li>
+                                        <li><a href="#" onclick="setTop(10)">Top 10 Países</a></li>
+                                        <li><a href="#" onclick="setTop(20)">Top 20 Países</a></li>
+                                        <li><a href="#" onclick="setTop(-10)">Últimos 10 Países</a></li>
+                                        <li><a href="#" onclick="setTop(-20)">Últimos 20 Países</a></li>
                                       </ul>
                             </div>
-                    </div>
-                    
+                        
+                                <div class="slides-container hidden" id="show-country">
+                                    <section class="slide slide-1">
+                                      <article class="slide__inner slide--left">
+                                        <div class="container1 container--slide-1">
+                                          <div class="container__logo" id="flag"></div>
+                                          <div class="container__stripe container__stripe--long"></div>
+                                          <div class="container__stripe container__stripe--short"></div>
+                                        </div>
+                                      </article>
+                                      <article class="slide__inner slide--right">
+                                        <h1 id="h1-country">Challenges</h1>
+                                        <p id="p-country"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta, aut accusantium modi incidunt, odit voluptatem tempora alias!</p>
+                                      </article>
+                                    </section>
+                                  </div>
+                            
                 </div> <!-- content end -->
               </div>
             </div>

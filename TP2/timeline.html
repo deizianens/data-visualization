@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="theme-color" content="#3a9fff">
+
+    <script src="https://d3js.org/d3.v3.min.js"></script>
+    <script src="https://d3js.org/d3-queue.v2.min.js"></script>
+
+    <!-- dashboard -->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.1/css/bulma.min.css">
+    <link rel="stylesheet" type="text/css" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css">
+    <link rel="stylesheet" type="text/css" href="css/style3.css">
+    <title>TP2</title>
+</head>
+
+<body>
+    <div id="app">
+        <div class="container">
+            <div class="columns is-gapless">
+                <div class="column is-3">
+                    <aside class="menu">
+                        <ul class="menu-list">
+                            <div class="menu-list__profile media">
+                                <div class="media-left">
+                                    <figure class="image">
+                                        <img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Logo_UFMG.png">
+                                    </figure>
+                                </div>
+                                <div class="media-content">
+                                    <p class="title is-5 font-color-white">Visualização de Dados</p>
+                                </div>
+                            </div>
+                            <div class="menu-list__main is-uppercase has-text-left">
+                                <li><a class="subtitle is-7" href="tp2.html"><i class="fas fa-globe-americas"></i>Mapa</a></li>
+                                <li><a class="subtitle is-7" href="ranking.html"><i class="fas fa-trophy"></i>
+                                        Ranking</a></li>
+                                <li class="menu-list__outlier"><a class="subtitle is-7"><i class="fas fa-info-circle"></i>
+                                        Sobre</a></li>
+                            </div>
+                        </ul>
+                    </aside>
+                </div>
+                <div class="column">
+                    <div class="dashboard">
+                        <div class="dashboard__content">
+                            <div class="header">
+                                <div>
+                                    <p class="title is-5 is-pulled-left font-color-dark">Happiness Report
+                                        <span class="subtitle is-6 is-block font-color-light" style="padding-top: 1.0rem">Índices
+                                            de
+                                            Felicidade</span></p>
+                                    <p class="title is-6 is-pulled-right font-color-medium">Trabalho Prático II
+                                        <span class="subtitle is-6 is-block font-color-primary is-uppercase" style="font-size: 0.9rem; padding-top: 1.0rem">Deiziane
+                                            Silva</span></p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="content">
+                                    <div class="flexbox per-country-per-year">
+                                        <div class="chart">
+                                            <div class="left-label">
+                                                <p>Ranking<br /> dos países</p>
+                                            </div>
+                                        </div>
+                                        <div class="key">
+                                            <ul>
+                                                <li class="australia" title="Click to show/hide Australia's title drops">
+                                                    <img src="https://image.flaticon.com/icons/svg/206/206618.svg" alt="Australia" /></li>
+                                                <li class="switzerland" title="Click to show/hide Switzerland's title drops">
+                                                    <img src="https://image.flaticon.com/icons/svg/206/206647.svg"
+                                                        alt="Suíça" /></li>
+                                                <li class="iceland" title="Click to show/hide Iceland's title drops">
+                                                    <img src="https://image.flaticon.com/icons/svg/206/206772.svg" alt="Islândia" /></li>
+                                                <li class="denmark" title="Click to show/hide Denmark's title drops">
+                                                    <img src="https://image.flaticon.com/icons/svg/206/206678.svg" alt="Dinamarca" /></li>
+                                                <li class="norway" title="Click to show/hide Norway's title drops">
+                                                    <img src="https://image.flaticon.com/icons/svg/206/206709.svg" alt="Noruega" /></li>
+                                                <li class="canada" title="Click to show/hide Canada's title drops">
+                                                    <img src="https://image.flaticon.com/icons/svg/206/206609.svg" alt="Canada" /></li>
+                                                <li class="finland" title="Click to show/hide Finland's title drops">
+                                                    <img src="https://image.flaticon.com/icons/svg/206/206727.svg" alt="Finlândia" /></li>
+                                                <li class="netherlands" title="Click to show/hide Netherlands's title drops">
+                                                    <img src="https://image.flaticon.com/icons/svg/206/206615.svg" alt="Holanda" /></li>
+                                                <li class="sweden" title="Click to show/hide Sweden's title drops">
+                                                    <img src="https://image.flaticon.com/icons/svg/206/206668.svg" alt="Suécia" /></li>
+                                                <li class="new-zealand" title="Click to show/hide New Zealand's title drops">
+                                                    <img src="https://image.flaticon.com/icons/svg/206/206731.svg" alt="Nova Zelândia" /></li>
+                                                <li class="israel" title="Click to show/hide Israel's title drops">
+                                                    <img src="https://image.flaticon.com/icons/svg/206/206697.svg" alt="Israel" /></li>
+                                                <li class="costa-rica" title="Click to show/hide Costa Rica's title drops">
+                                                    <img src="https://image.flaticon.com/icons/svg/206/206696.svg" alt="Costa Rica" /></li>
+                                                <li class="austria" title="Click to show/hide Autria's title drops">
+                                                    <img src="https://image.flaticon.com/icons/svg/206/206849.svg" alt="Austria" /></li>
+                                                <li class="usa" title="Click to show/hide United State's title drops">
+                                                    <img src="https://image.flaticon.com/icons/svg/206/206626.svg" alt="Estados Unidos" /></li>
+                                                <li class="brazil" title="Click to show/hide Brazil's title drops">
+                                                    <img src="https://image.flaticon.com/icons/svg/206/206597.svg" alt="Brasil" /></li>
+                                                <li class="ireland" title="Click to show/hide Ireland's title drops">
+                                                    <img src="https://image.flaticon.com/icons/svg/206/206673.svg" alt="Irlanda" /></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div> <!-- content end -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script type="text/javascript" src="http://fian.my.id/marka/static/marka/js/marka.js"></script>
+        <script type="text/javascript" src="js/line-chart.js"></script>
+        <script type="text/javascript" src="js/script.js"></script>
+
+</body>
+
+</html>

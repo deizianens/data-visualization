@@ -1,5 +1,9 @@
 var year = 2015;
 var countryMapping;
+var rank = 0;
+var numCountries = 20;
+var data_aux;
+var aux = 0;
 
 function findCountryContinent(country_name){
     for (var i = 0, len = countryMapping.length; i < len; i++) {
@@ -14,6 +18,13 @@ function findCountryContinent(country_name){
             } 
             return countryMapping[i]["continent"];
         }
+    }
+}
+
+function getCountryAlpha2(country_name){
+    for (var i = 0, len = countryMapping.length; i < len; i++) {
+        if (countryMapping[i]["country"] === country_name)
+            return countryMapping[i]["code_2"];
     }
 }
 
@@ -63,89 +74,77 @@ function ready(error, data, c) {
     if (error) throw error;
     // console.log(data);
     countryMapping = c;
-   
-    var cat = new Array(6).fill(0);
-    var val = new Array(6).fill(0);
-    for(var i = 0; i < data.length; i++){
-        if(findCountryContinent(data[i].Country) == "Africa"){
-            cat[0] += 1; 
-            val[0] += parseInt(data[i].Score); 
+    data_aux = data;
+    if(rank == 0){
+        var cat = new Array(6).fill(0);
+        var val = new Array(6).fill(0);
+        for(var i = 0; i < data.length; i++){
+            if(findCountryContinent(data[i].Country) == "Africa"){
+                cat[0] += 1; 
+                val[0] += parseInt(data[i].Score); 
+            }
+            else if(findCountryContinent(data[i].Country) == "Americas"){
+                cat[1] += 1; 
+                val[1] += parseInt(data[i].Score);
+            }
+            else if(findCountryContinent(data[i].Country) == "Northern America"){
+                cat[2] += 1; 
+                val[2] += parseInt(data[i].Score);
+            }
+            else if(findCountryContinent(data[i].Country) == "Europe"){
+                cat[3] += 1; 
+                val[3] += parseInt(data[i].Score);
+            }
+            else if(findCountryContinent(data[i].Country) == "Oceania"){
+                cat[4] += 1; 
+                val[4] += parseInt(data[i].Score);
+            }
+            else if(findCountryContinent(data[i].Country) == "Asia"){
+                cat[5] += 1; 
+                val[5] += parseInt(data[i].Score);
+            }
+            else {
+                console.log("Continent not found! :( "+data[i].Country);
+            }
         }
-        else if(findCountryContinent(data[i].Country) == "Americas"){
-            cat[1] += 1; 
-            val[1] += parseInt(data[i].Score);
-        }
-        else if(findCountryContinent(data[i].Country) == "Northern America"){
-            cat[2] += 1; 
-            val[2] += parseInt(data[i].Score);
-        }
-        else if(findCountryContinent(data[i].Country) == "Europe"){
-            cat[3] += 1; 
-            val[3] += parseInt(data[i].Score);
-        }
-        else if(findCountryContinent(data[i].Country) == "Oceania"){
-            cat[4] += 1; 
-            val[4] += parseInt(data[i].Score);
-        }
-        else if(findCountryContinent(data[i].Country) == "Asia"){
-            cat[5] += 1; 
-            val[5] += parseInt(data[i].Score);
-        }
-        else {
-            console.log("Continent not found! :( "+data[i].Country);
-        }
+        
+        var d = [
+            { category: "Africa", value: parseFloat(val[0]/cat[0]).toFixed(2)},
+            { category: "América Latina", value: parseFloat(val[1]/cat[1]).toFixed(2)},
+            { category: "América do Norte", value: parseFloat(val[2]/cat[2]).toFixed(2)},
+            { category: "Europe", value: parseFloat(val[3]/cat[3]).toFixed(2)},
+            { category: "Oceania", value: parseFloat(val[4]/cat[4]).toFixed(2)},
+            { category: "Asia", value: parseFloat(val[5]/cat[5]).toFixed(2)}
+        ];
+        // console.log(d);
     }
-    
-    const d = [
-        { category: "Africa", value: parseFloat(val[0]/cat[0]).toFixed(2)},
-        { category: "Latin America", value: parseFloat(val[1]/cat[1]).toFixed(2)},
-        { category: "Northern America", value: parseFloat(val[2]/cat[2]).toFixed(2)},
-        { category: "Europe", value: parseFloat(val[3]/cat[3]).toFixed(2)},
-        { category: "Oceania", value: parseFloat(val[4]/cat[4]).toFixed(2)},
-        { category: "Asia", value: parseFloat(val[5]/cat[5]).toFixed(2)}
-    ];
-    
+    else{
+        var cat = new Array(Math.abs(numCountries)).fill(0);
+        var val = new Array(Math.abs(numCountries)).fill(0); 
+        if(numCountries>0){
+            for (var i = 0; i<numCountries; i++){
+                cat[i] = {category: data[i].Country, value: parseFloat(data[i].Score).toFixed(2)}
+            }
+        }
+        else{
+            var j = 0;
+            for (var i = (data.length + numCountries); i<data.length; i++){
+                cat[j] = {category: data[i].Country, value: parseFloat(data[i].Score).toFixed(2)}
+                j++;
+            }
+        }
+        var d = [];
+        d = cat;
+
+        console.log(d);
+    }
     dataValues = d.sort( (a, b) => b['value'] - a['value'])
     // console.log(val[0]/cat[0]);
 
     // include a section for the specific visualization
     const licenses = container
-        .append("section");
-
-    // include introductory heading and paragraph
-    licenses
-        .append("h2")
-        .text("Ranking de Felicidade");
-
-    licenses
-        .append("p")
-        .text("Comparação do nível de felicidade entre continentes");
-    
-    licenses
-        .append("span")
-        .text("(América foi subdividida entre regiões: América do Norte e América Latina)");
-    
-    // licenses
-    //     .append("div")
-    //     .attr("class", `button-group`)
-        
-    // licenses
-    //     .append("i")
-    //     .attr("id", `icon`)
-    
-    // licenses
-    //     .append("ul")
-    //     .attr("id", `dropdown-menu`)
-    
-    // licenses
-    //     .append("li")
-    //     .attr("id", `input`)
-    //     .text("Ranking por");
-    
-    // licenses
-    //     .append("li")
-    //     .attr("id", `input`)
-    //     .text("Ranking por");
+        .append("section")
+        .attr("id",`bar-chart`);
     
         // SVG
     // include the SVG and nested g element in which to plot the visualization
@@ -248,7 +247,117 @@ function ready(error, data, c) {
         .duration((d, i) => 2000 - 100 * i)
         .delay((d, i) => 900 + 100 * i)
         .attr("width", (d, i) => licensesXScale(d.value));
-
-
 }
 
+function ready2(error, data){
+    var c = document.getElementById("search-input").value;
+    console.log(aux);
+    if(aux!=1){
+        var img = document.getElementById('img-country');
+        document.getElementById("flag").removeChild(img);
+    }
+    data_aux = data;
+    for (var i = 0, len = data.length; i < len; i++) {
+        if (data[i].Country === c){
+            d3.selectAll("#bar-chart").remove();
+            var element = document.getElementById("show-country")
+            element.classList.remove("hidden");
+            rank = i; //keeps country index (bacalhau? rs)
+            break;
+        }
+    }
+    if(i == data_aux.length){
+        alert("País não encontrado!");
+        return;  
+    }
+
+    document.getElementById("h1-country").innerHTML = data[rank].Country;
+    document.getElementById("p-country").innerHTML = "<strong>Ranking:</strong> " + data[rank].Rank + "<br><strong>Pontuação:</strong> " + data[rank].Score;
+    addImg();
+    aux = -1;
+    
+}
+
+function addImg(){
+    var img = document.createElement("img");
+    img.src = "img/"+getCountryAlpha2(data_aux[rank].Country)+".svg";
+    img.setAttribute("id", "img-country");
+    document.getElementById("flag").appendChild(img);
+}
+
+function setYearSlider(y){
+    year = y;
+    if(aux == 0){
+        d3.selectAll("#bar-chart").remove();
+        // Load data (asynchronously)
+        d3_queue
+        .queue()
+        .defer(
+            d3.csv,
+            "./data/world-happiness-report-" + year + "-kaggle.csv"
+        )
+        .defer(
+            d3.csv,
+            "country-continent.csv"
+        )
+        .await(ready);
+    }
+    else{
+        d3_queue
+        .queue()
+        .defer(
+            d3.csv,
+            "./data/world-happiness-report-" + year + "-kaggle.csv"
+        )
+        .await(ready2);
+    }
+}
+
+function setRank(r){
+    aux = 0;
+    rank = r;
+    d3.selectAll("#bar-chart").remove();
+    var element = document.getElementById("show-country")
+    element.classList.add("hidden");
+    // Load data (asynchronously)
+    d3_queue
+    .queue()
+    .defer(
+        d3.csv,
+        "./data/world-happiness-report-" + year + "-kaggle.csv"
+    )
+    .defer(
+        d3.csv,
+        "country-continent.csv"
+    )
+    .await(ready);
+}
+
+function setTop(t){
+    aux = 0;
+    rank = 1;
+    numCountries = t;
+    var element = document.getElementById("show-country")
+    element.classList.add("hidden");
+    d3.selectAll("#bar-chart").remove();
+    // Load data (asynchronously)
+    d3_queue
+    .queue()
+    .defer(
+        d3.csv,
+        "./data/world-happiness-report-" + year + "-kaggle.csv"
+    )
+    .await(ready);
+}
+
+function showCountry(){
+    aux += 1;
+    
+    d3_queue
+    .queue()
+    .defer(
+        d3.csv,
+        "./data/world-happiness-report-" + year + "-kaggle.csv"
+    )
+    .await(ready2);
+}

@@ -201,5 +201,7 @@ function showMap(){
     element.classList.add("hidden");
     element = document.getElementById("map-id");
     element.classList.remove("hidden");
-
+    $.getScript("js/map.js",function(){
+        setYearSlider(year);
+    });
 }

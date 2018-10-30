@@ -1,0 +1,569 @@
+@import url("https://fonts.googleapis.com/css?family=Oswald");
+@import url("https://netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.css");
+@import url("https://fonts.googleapis.com/css?family=Nunito:400,800");
+
+*{
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+  margin: 0;
+  overflow-x: hidden;
+  font-family: "Oswald", sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  color: #738491;
+  font-size: 16px;
+}
+
+
+/* dashboard */
+#app {
+  height: 100%;
+  font-family: Nunito, sans-serif;
+  background: linear-gradient(to bottom right, #f5f2fd, #bfcbda);
+}
+
+#app .container,
+#app .columns {
+  height: 100%;
+  width: 100%;
+}
+
+#app .menu {
+  height: 100%;
+  background: linear-gradient(to bottom right, #f8a3a4, #e2587c);
+  border-top-left-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+}
+
+.menu-list__profile {
+  padding: 4.0rem 3.0rem;
+}
+.menu-list__profile .image {
+  height: 80px;
+  width: 80px;
+}
+.menu-list__profile .image img {
+  border-radius: 50px;
+}
+.menu-list__profile .subtitle {
+  padding-top: 0.8rem;
+}
+
+.menu-list__main {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.menu-list__main li {
+  padding: 0.5rem 0;
+}
+.menu-list__main li .fas, .menu-list__main li .far {
+  width: 35px;
+  font-size: 1.3rem;
+  padding-right: 0.9rem;
+}
+.menu-list__main li a {
+  color: #fff;
+  display: inline-flex;
+  align-items: center;
+  letter-spacing: 0.1rem;
+  font-weight: 800;
+  opacity: 0.6;
+}
+.menu-list__main li a.active {
+  opacity: 1.0;
+}
+.menu-list__main li a:hover {
+  background-color: inherit;
+  color: #FFF;
+  opacity: 1.0;
+}
+
+.menu-list__outlier {
+  margin-top: 10.0rem;
+}
+
+#app .dashboard {
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(to bottom right, #f9fafb, #dfe4eb);
+  border-top-right-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+}
+
+.dashboard__content {
+  height: 100%;
+  width: 80%;
+  margin: 0 auto;
+}
+.dashboard__content .header {
+  display: block;
+  height: 100px;
+  margin-top: 3.0rem;
+}
+.dashboard__content .row {
+  margin: 1.0rem 0;
+}
+.dashboard__content .bottom-row {
+  margin-bottom: 3.0rem;
+}
+
+.card {
+  border-radius: 0.2rem;
+  box-shadow: initial;
+}
+.card .media {
+  margin-bottom: 1.7rem !important;
+}
+.card .media .image img {
+  border-radius: 30px;
+}
+.card .title {
+  font-size: 0.9rem;
+  letter-spacing: 1px;
+  padding-bottom: 0.5rem;
+}
+.card .subtitle {
+  margin-bottom: 1.0rem;
+}
+.card .content {
+  padding-bottom: 2.5rem;
+  transition: all 1s;
+}
+
+.font-color-dark {
+  color: #274263;
+}
+
+.font-color-medium {
+  color: #76879d;
+}
+
+.font-color-light {
+  color: #bdc5cf;
+}
+
+.font-color-primary {
+  color: #f17a8e;
+}
+
+.font-color-white {
+  color: #fff;
+}
+
+.flex-center, #app, .menu-list__profile, #app .dashboard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 1216px) {
+  .menu-list__profile {
+    flex-direction: column;
+  }
+  .menu-list__profile .title {
+    padding-top: 0.5rem;
+  }
+  .menu-list__profile .subtitle {
+    padding-top: 0;
+  }
+
+  .media-content {
+    text-align: center;
+  }
+
+  .card .card-content {
+    padding: 1.0rem;
+  }
+  .card .card .title {
+    font-size: 0.7rem;
+  }
+  .card .content {
+    font-size: 0.9rem;
+    padding-bottom: 1.5rem;
+  }
+}
+@media (min-width: 768px) {
+  #app .container {
+    padding: 1.0rem 0;
+  }
+
+  .dashboard__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+@media (min-width: 720px) {
+  .columns {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+
+  .columns > .column.is-3 {
+    -webkit-box-flex: 0;
+    -ms-flex: none;
+    flex: none;
+    width: 25%;
+  }
+}
+@media (min-width: 720px) and (max-width: 840px) {
+  .menu-list__profile .subtitle {
+    font-size: 0.6rem;
+  }
+
+  .menu-list__main li .fas {
+    font-size: 1.1rem !important;
+  }
+
+  .menu-list__main li a {
+    font-size: .60rem !important;
+  }
+}
+@media (max-width: 720px) {
+  #app .container {
+    width: 100%;
+  }
+
+  .menu-list__main {
+    display: none;
+  }
+
+  .card {
+    max-width: 350px;
+    margin: 0 auto;
+  }
+  .card .media {
+    margin-bottom: .75rem !important;
+  }
+  .card .media .media-left {
+    margin: 0 auto;
+  }
+}
+@media (max-width: 1216px) and (max-height: 768px) {
+  #app .container {
+    padding: 0;
+  }
+
+  .menu-list__profile {
+    padding: 2.0rem 2.0rem;
+  }
+  .menu-list__profile .title {
+    font-size: 1.0rem !important;
+  }
+
+  .media-left {
+    margin-right: 0.5rem;
+  }
+
+  .media-content .title {
+    font-size: 0.65rem;
+  }
+
+  .menu-list__main li .fas {
+    font-size: 1.1rem !important;
+  }
+
+  .menu-list__main li a {
+    font-size: .60rem !important;
+  }
+
+  .menu-list__outlier {
+    margin-top: 1.5rem;
+  }
+
+  .card .content {
+    font-size: 0.7rem;
+    padding-bottom: 0.2rem;
+  }
+}
+
+
+/* website page */
+
+.hidden {
+  display: none;
+}
+
+.background {
+  fill: none;
+  pointer-events: all;
+}
+
+
+  @-webkit-keyframes fadeGraphTextIn {
+	from {
+	  opacity: 0;
+	}
+	to {
+	  opacity: 1;
+	}
+  }
+  
+  @keyframes fadeGraphTextIn {
+	from {
+	  opacity: 0;
+	}
+	to {
+	  opacity: 1;
+	}
+  }
+  
+  /* line-chart */
+  .per-country-per-year.flexbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  @media screen and (max-width: 1000px) {
+    .per-country-per-year.flexbox {
+      flex-direction: column;
+      margin: 0 auto;
+    }
+  }
+  .per-country-per-year .left-label {
+    text-align: center;
+    width: 120px;
+    margin-left: -28px;
+    font-size: 14px;
+  }
+  @media screen and (max-width: 1000px) {
+    .per-country-per-year .left-label {
+      font-size: 12px;
+    }
+  }
+  @media screen and (max-width: 480px) {
+    .per-country-per-year .left-label {
+      font-size: 10px;
+    }
+  }
+  .per-country-per-year .left-label p {
+    margin: 0;
+  }
+  .per-country-per-year svg {
+    max-width: 100%;
+    margin: 0 auto;
+    display: block;
+  }
+  @media screen and (max-width: 960px) {
+    .per-country-per-year svg {
+      height: auto !important;
+    }
+  }
+  .per-country-per-year .grid .tick {
+    stroke: lightgrey;
+    opacity: 0.7;
+    shape-rendering: crispEdges;
+  }
+  .per-country-per-year .grid path {
+    stroke-width: 0;
+  }
+  .per-country-per-year .axis path {
+    fill: none;
+    stroke: #bbb;
+    shape-rendering: crispEdges;
+  }
+  .per-country-per-year .axis text {
+    fill: #555;
+  }
+  .per-country-per-year .axis line {
+    stroke: #e7e7e7;
+    shape-rendering: crispEdges;
+  }
+  .per-country-per-year .axis .axis-label {
+    font-size: 18px;
+  }
+  .per-country-per-year .line {
+    fill: none;
+    stroke-width: 1.5px;
+    display: none;
+  }
+  .per-country-per-year .line.shown {
+    display: block;
+  }
+  @keyframes dash {
+    from {
+      stroke-dashoffset: 1000;
+    }
+    to {
+      stroke-dashoffset: 0;
+    }
+  }
+  .per-country-per-year .dot {
+    /* consider the stroke-with the mouse detect radius? */
+    stroke: transparent;
+    stroke-width: 10px;
+    cursor: pointer;
+  }
+  .per-country-per-year .dot:hover {
+    stroke: rgba(68, 127, 255, 0.3);
+  }
+  .per-country-per-year .dot-group {
+    position: relative;
+    opacity: 0;
+  }
+  .per-country-per-year .count {
+    display: none;
+    font-size: 13px;
+    fill: MidnightBlue;
+  }
+  .per-country-per-year .dot-group:hover .count {
+    display: block;
+  }
+  .per-country-per-year .dots {
+    z-index: -1;
+    display: none;
+  }
+  .per-country-per-year .dots.shown {
+    z-index: 99;
+    display: block;
+  }
+  .per-country-per-year .dots.shown .dot-group {
+    animation: showDot 200ms linear forwards;
+  }
+  .per-country-per-year .dots.shown .dot-group.dot2 {
+    animation-delay: .333s;
+  }
+  .per-country-per-year .dots.shown .dot-group.dot3 {
+    animation-delay: .667s;
+  }
+  .per-country-per-year .dots.shown .dot-group.dot4 {
+    animation-delay: 1s;
+  }
+  .per-country-per-year .dots.shown .dot-group.dot5 {
+    animation-delay: 1.333s;
+  }
+  .per-country-per-year .dots.shown .dot-group.dot6 {
+    animation-delay: 1.667s;
+  }
+  .per-country-per-year .dots.shown .dot-group.dot7 {
+    animation-delay: 2s;
+  }
+  .per-country-per-year .dots.shown .dot-group.dot8 {
+    animation-delay: 2.333s;
+  }
+  .per-country-per-year .dots.shown .dot-group.dot9 {
+    animation-delay: 2.667s;
+  }
+  @keyframes showDot {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  .per-country-per-year .key {
+    display: flex;
+    align-items: center;
+  }
+  .per-country-per-year .key ul {
+    padding-left: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 170px;
+  }
+  @media screen and (max-width: 1000px) {
+    .per-country-per-year .key ul {
+      width: 440px;
+      margin: 20px auto;
+    }
+  }
+  @media screen and (max-width: 480px) {
+    .per-country-per-year .key ul {
+      width: 320px;
+    }
+  }
+  .per-country-per-year .key li {
+    list-style: none;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 50%;
+    width: 60px;
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: all .5s ease;
+    position: relative;
+    margin: 5px;
+  }
+  .per-country-per-year .key li::before {
+    content: attr(data-tds);
+    position: absolute;
+    background-color: #fff;
+    padding: 3px;
+    border-radius: 50%;
+    top: 2px;
+    left: -4px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+    font-size: 12px;
+    box-sizing: border-box;
+    width: 23px;
+    height: 23px;
+    text-align: center;
+  }
+  .per-country-per-year .key li img {
+    max-width: 100%;
+    display: block;
+    border-radius: 50%;
+    margin: 0;
+  }
+  .per-country-per-year .key li.active.australia {
+    background-color: darkgreen;
+  }
+  .per-country-per-year .key li.active.switzerland {
+    background-color: goldenrod;
+  }
+  .per-country-per-year .key li.active.iceland {
+    background-color: lightcoral;
+  }
+  .per-country-per-year .key li.active.denmark {
+    background-color: darkblue;
+  }
+  .per-country-per-year .key li.active.norway  {
+    background-color: cornflowerblue;
+  }
+  .per-country-per-year .key li.active.canada {
+    background-color: mediumpurple;
+  }
+  .per-country-per-year .key li.active.finland {
+    background-color: limegreen;
+  }
+  .per-country-per-year .key li.active.netherlands {
+    background-color: saddlebrown;
+  }
+  .per-country-per-year .key li.active.sweden {
+    background-color: cyan;
+  }
+  .per-country-per-year .key li.active.new-zealand {
+    background-color: olive;
+  }
+  .per-country-per-year .key li.active.israel {
+    background-color: lime;
+  }
+  .per-country-per-year .key li.active.costa-rica {
+    background-color: fuchsia;
+  }
+  .per-country-per-year .key li.active.austria {
+    background-color: chocolate;
+  }
+  .per-country-per-year .key li.active.usa {
+    background-color: red;
+  }
+  .per-country-per-year .key li.active.brazil {
+    background-color: gold;
+  }
+  .per-country-per-year .key li.active.ireland {
+    background-color: darkorange;
+  }
+
+  
+  
