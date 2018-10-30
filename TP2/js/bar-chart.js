@@ -280,7 +280,7 @@ function ready2(error, data){
 
 function addImg(){
     var img = document.createElement("img");
-    img.src = "img/"+getCountryAlpha2(data_aux[rank].Country)+".svg";
+    img.src = "img/"+(getCountryAlpha2(data_aux[rank].Country)).toLowerCase()+".svg";
     img.setAttribute("id", "img-country");
     document.getElementById("flag").appendChild(img);
 }
